@@ -15,6 +15,14 @@ module.exports = async (req, res) => {
   }
 
   try {
+    const requiredEnv = ['SMTP_HOST', 'SMTP_PORT', 'SMTP_USER', 'SMTP_PASS'];
+    const missingEnv = requiredEnv.filter((key) => !String(process.env[key] || '').trim());
+    if (missingEnv.length > 0) {
+      return res.status(500).json({
+        error: `Missing SMTP environment variables: ${missingEnv.join(', ')}`
+      });
+    }
+
     const {
       fullName,
       organisation,
@@ -40,13 +48,21 @@ module.exports = async (req, res) => {
       }
     }
 
+    const rawPass = String(process.env.SMTP_PASS || '');
+    const normalizedPass = rawPass
+      .replace(/^"(.*)"$/, '$1')
+      .replace(/^'(.*)'$/, '$1');
+
+    const smtpPort = Number(process.env.SMTP_PORT || 465);
+
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT || 465),
-      secure: Number(process.env.SMTP_PORT || 465) === 465,
+      port: smtpPort,
+      secure: smtpPort === 465,
+      requireTLS: smtpPort !== 465,
       auth: {
         user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS
+        pass: normalizedPass
       }
     });
 
@@ -82,6 +98,15 @@ module.exports = async (req, res) => {
 
     return res.status(200).json({ success: true });
   } catch (error) {
-    return res.status(500).json({ error: 'Failed to send email. Check SMTP settings.' });
+    console.error('SMTP send error:', {
+      message: error.message,
+      code: error.code,
+      responseCode: error.responseCode,
+      command: error.command
+    });
+
+    return res.status(500).json({
+      error: `SMTP send failed (${error.code || error.responseCode || 'unknown_error'}). Check SMTP host/port/user/pass in Vercel env.`
+    });
   }
 };
