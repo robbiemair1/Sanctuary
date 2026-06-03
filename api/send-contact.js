@@ -1,6 +1,5 @@
 const nodemailer = require('nodemailer');
-const dotenv = require('dotenv');
-dotenv.config();
+
 function escapeHtml(input) {
   return String(input || '')
     .replace(/&/g, '&amp;')
