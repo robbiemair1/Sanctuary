@@ -271,14 +271,23 @@ nav.scrolled { border-bottom-color: var(--rule); }
 .hero-logo {
   position: relative;
   z-index: 2;
-  margin-bottom: 28px;
-  max-width: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 36px;
+  isolation: isolate;
 }
 
 .hero-logo img {
-  width: 100%;
+  width: min(100%, 520px);
+  max-height: 260px;
   height: auto;
   display: block;
+  object-fit: contain;
+  opacity: 0.95;
+  mix-blend-mode: normal;
+  filter: none;
 }
 
 .hero-quote blockquote {
