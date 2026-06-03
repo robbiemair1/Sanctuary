@@ -48,6 +48,9 @@ module.exports = async (req, res) => {
       }
     }
 
+    const smtpHost = String(process.env.SMTP_HOST || '').trim();
+    const smtpTlsServername = String(process.env.SMTP_TLS_SERVERNAME || smtpHost).trim();
+
     const rawPass = String(process.env.SMTP_PASS || '');
     const normalizedPass = rawPass
       .replace(/^"(.*)"$/, '$1')
@@ -56,13 +59,16 @@ module.exports = async (req, res) => {
     const smtpPort = Number(process.env.SMTP_PORT || 465);
 
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
+      host: smtpHost,
       port: smtpPort,
       secure: smtpPort === 465,
       requireTLS: smtpPort !== 465,
       auth: {
         user: process.env.SMTP_USER,
         pass: normalizedPass
+      },
+      tls: {
+        servername: smtpTlsServername
       }
     });
 
