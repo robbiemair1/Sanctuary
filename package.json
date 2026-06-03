@@ -1,0 +1,17 @@
+{
+  "name": "sanctuary-site",
+  "version": "1.0.0",
+  "description": "Sanctuary Infrastructure site powered by Eleventy and Decap CMS",
+  "scripts": {
+    "build": "eleventy",
+    "start": "npx vercel dev",
+    "dev": "eleventy --serve",
+    "static": "eleventy --serve"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

@@ -1,0 +1,135 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "site"
+    label: "Sanctuary Site Content"
+    files:
+      - name: "site"
+        label: "Homepage Content"
+        file: "content/site.json"
+        format: json
+        fields:
+          - label: "Meta"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Keywords", name: "keywords", widget: "text" }
+              - { label: "Open Graph Title", name: "og_title", widget: "string" }
+              - { label: "Open Graph Description", name: "og_description", widget: "text" }
+
+          - label: "Navigation"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Brand Main", name: "brand_main", widget: "string" }
+              - { label: "Brand Accent", name: "brand_accent", widget: "string" }
+              - { label: "CTA Text", name: "cta_text", widget: "string" }
+              - { label: "CTA Link", name: "cta_href", widget: "string" }
+              - label: "Nav Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Href", name: "href", widget: "string" }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline Top (use <br> where needed)", name: "headline_top", widget: "text" }
+              - { label: "Headline Emphasis (use <br> where needed)", name: "headline_emphasis", widget: "text" }
+              - { label: "Tagline", name: "tagline", widget: "text" }
+              - { label: "Model Line", name: "model_line", widget: "string" }
+              - { label: "Primary Button Text", name: "primary_text", widget: "string" }
+              - { label: "Primary Button Href", name: "primary_href", widget: "string" }
+              - { label: "Secondary Button Text", name: "secondary_text", widget: "string" }
+              - { label: "Secondary Button Href", name: "secondary_href", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Quote Attribution", name: "quote_cite", widget: "string" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Value", name: "value", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          - label: "How It Works"
+            name: "how"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading Top", name: "heading_top", widget: "string" }
+              - { label: "Heading Emphasis", name: "heading_emphasis", widget: "string" }
+              - { label: "Heading Bottom", name: "heading_bottom", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "num", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Assets"
+            name: "assets"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading Top", name: "heading_top", widget: "string" }
+              - { label: "Heading Emphasis", name: "heading_emphasis", widget: "string" }
+              - { label: "Heading Bottom", name: "heading_bottom", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Note", name: "note", widget: "text" }
+              - label: "Asset Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Status", name: "status", widget: "string" }
+                  - { label: "Status Class", name: "status_class", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Location", name: "location", widget: "string" }
+                  - label: "Metrics"
+                    name: "metrics"
+                    widget: "list"
+                    fields:
+                      - { label: "Key", name: "key", widget: "string" }
+                      - { label: "Value", name: "val", widget: "string" }
+                      - { label: "Highlight", name: "highlight", widget: "boolean", required: false }
+                  - { label: "Action Text", name: "action_text", widget: "string" }
+                  - { label: "Action Link", name: "action_href", widget: "string" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading Top", name: "heading_top", widget: "string" }
+              - { label: "Heading Emphasis", name: "heading_emphasis", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Note", name: "note", widget: "text" }
+              - { label: "Direct Contact Label", name: "direct_label", widget: "string" }
+              - { label: "Direct Email", name: "direct_email", widget: "string" }
+              - { label: "Mobile Label", name: "mobile_label", widget: "string" }
+              - { label: "Mobile Display", name: "mobile_display", widget: "string" }
+              - { label: "Mobile Tel", name: "mobile_tel", widget: "string" }
+              - { label: "Response Label", name: "response_label", widget: "string" }
+              - { label: "Response Value", name: "response_value", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Brand Main", name: "brand_main", widget: "string" }
+              - { label: "Brand Accent", name: "brand_accent", widget: "string" }
+              - label: "Legal Lines"
+                name: "legal_lines"
+                widget: "list"
+                field: { label: "Line", name: "line", widget: "string" }

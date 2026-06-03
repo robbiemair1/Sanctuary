@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Sanctuary Infrastructure - C2 Care Property Platform | Children's Home Leasing",
+    "description": "Sanctuary Infrastructure provides consented, refurbished Class C2 children's home properties to established operators across England. No planning risk. Ready for the operator's Ofsted application.",
+    "keywords": "C2 children's home property lease, consented care property, children's home operator lease, C2 planning consent, residential children's home property, care property platform England",
+    "og_title": "Sanctuary Infrastructure - Care Property Platform",
+    "og_description": "We create the asset. You deliver the care. Consented C2 properties for established children's home operators."
+  },
+  "nav": {
+    "brand_main": "Sanctuary",
+    "brand_accent": "Infrastructure",
+    "cta_text": "Request Asset Pack",
+    "cta_href": "#contact",
+    "links": [
+      { "label": "The Need", "href": "#need" },
+      { "label": "Assets", "href": "#assets" },
+      { "label": "The Model", "href": "#model" },
+      { "label": "Care to Career", "href": "#career" },
+      { "label": "About", "href": "#founder" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Care Infrastructure Platform",
+    "headline_top": "We create<br>the asset.",
+    "headline_emphasis": "You deliver<br>the care.",
+    "tagline": "Sanctuary provides consented, Ofsted-ready Class C2 properties to established children's home operators across England. No planning risk. No operational involvement. Long-term partnership.",
+    "model_line": "The right property, in the right place, ready to operate.",
+    "primary_text": "View Available Assets",
+    "primary_href": "#assets",
+    "secondary_text": "How It Works",
+    "secondary_href": "#how",
+    "quote": "Consented C2 stock is the scarcest resource in children's residential care. We remove that constraint.",
+    "quote_cite": "Robbie Mair - Founder, Sanctuary Infrastructure",
+    "stats": [
+      { "value": "9", "label": "C2 properties in pipeline" },
+      { "value": "2", "label": "LDCs confirmed & ready" },
+      { "value": "£0", "label": "Planning risk to operator" },
+      { "value": "C2", "label": "Consented & Ofsted-application ready" }
+    ]
+  },
+  "how": {
+    "eyebrow": "The Process",
+    "heading_top": "Simple.",
+    "heading_emphasis": "Structured.",
+    "heading_bottom": "Certain.",
+    "body": "Sanctuary does the hard work - planning, consent, refurbishment, compliance. You bring the care expertise, the LA relationships, and the Ofsted registration. Together we build something lasting.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "NDA & Initial Conversation",
+        "desc": "We share the full asset pack - property details, planning documentation, operator economics, and commercial terms - under our standard NDA. No commitment required at this stage."
+      },
+      {
+        "num": "02",
+        "title": "Due Diligence & Site Visit",
+        "desc": "We verify your operational track record - Ofsted history, LA pipeline, RM and RI in place, financial strength. You visit the property and review the full refurbishment specification."
+      },
+      {
+        "num": "03",
+        "title": "Heads of Terms",
+        "desc": "Fixed lease agreed. Base rent established. Upside participation clause confirmed. Lease documentation instructed. A clear, fair deal structure with no hidden costs."
+      },
+      {
+        "num": "04",
+        "title": "Handover - Ofsted-application ready",
+        "desc": "Sanctuary hands over a C2-consented, refurbished property, ready for you to begin your Ofsted registration. The 12-18 months of planning friction is already removed. Registration, staffing and mobilisation timelines are yours to lead."
+      },
+      {
+        "num": "05",
+        "title": "Long-Term Partnership",
+        "desc": "Preferred operators get first look at new consented stock as the pipeline grows. Sanctuary handles structural maintenance. You focus entirely on care delivery and placement outcomes."
+      }
+    ]
+  },
+  "assets": {
+    "eyebrow": "Available Now",
+    "heading_top": "Consented.",
+    "heading_emphasis": "Compliant.",
+    "heading_bottom": "Ready.",
+    "body": "Two properties with confirmed Lawful Development Certificates. Seven further properties in planning or pre-application. All located in areas with strong LA commissioning demand.",
+    "note": "Full asset packs available following NDA execution. Site visits by arrangement.",
+    "cards": [
+      {
+        "status": "✓ LDC Confirmed",
+        "status_class": "status-confirmed",
+        "name": "19 Bampton Close",
+        "location": "Furzton, Milton Keynes MK4",
+        "metrics": [
+          { "key": "Property", "val": "3-bed detached" },
+          { "key": "Permitted use", "val": "C2 - up to 2 children" },
+          { "key": "Staffing", "val": "Up to 3 inc. RM" },
+          { "key": "Target lease", "val": "£5,000-£6,000/mo", "highlight": true },
+          { "key": "Availability", "val": "Q3 2026 - fully refurbished" },
+          { "key": "Commissioning", "val": "Strong MK LA demand" }
+        ],
+        "action_text": "Request asset pack",
+        "action_href": "#contact"
+      },
+      {
+        "status": "✓ LDC Confirmed",
+        "status_class": "status-confirmed",
+        "name": "25 Cleveland Road",
+        "location": "New Malden, Kingston KT3",
+        "metrics": [
+          { "key": "Property", "val": "3-bed detached" },
+          { "key": "Permitted use", "val": "C2 - up to 2 children" },
+          { "key": "Est. value", "val": "£1,000,000" },
+          { "key": "Target lease", "val": "£4,500-£6,000/mo", "highlight": true },
+          { "key": "Availability", "val": "Q1 2027 - vacant possession" },
+          { "key": "Area", "val": "Premium SW London" }
+        ],
+        "action_text": "Request asset pack",
+        "action_href": "#contact"
+      },
+      {
+        "status": "Appeal Pending",
+        "status_class": "status-appeal",
+        "name": "Pipeline - Teesside",
+        "location": "Stockton · Skelton · Guisborough",
+        "metrics": [
+          { "key": "Properties", "val": "4 x 3-4 bed detached" },
+          { "key": "Status", "val": "Planning Inspectorate appeal" },
+          { "key": "Est. consent", "val": "Late 2026 / Q1 2027" },
+          { "key": "Target lease", "val": "£3,500-£4,500/mo", "highlight": true },
+          { "key": "Area", "val": "Active LA commissioning" },
+          { "key": "Register interest", "val": "Conditional terms available" }
+        ],
+        "action_text": "Register interest",
+        "action_href": "#contact"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Work With Us",
+    "heading_top": "Start the",
+    "heading_emphasis": "conversation.",
+    "body": "All enquiries begin with an NDA. The full asset pack - property details, planning documentation, operator economics, and proposed commercial terms - is shared following execution.",
+    "note": "We respond to every enquiry personally. We do not use brokers or intermediaries.",
+    "direct_label": "Direct contact",
+    "direct_email": "robbie@robbiemair.com",
+    "mobile_label": "Mobile",
+    "mobile_display": "07900 555217",
+    "mobile_tel": "07900555217",
+    "response_label": "Response time",
+    "response_value": "Within 24 hours"
+  },
+  "footer": {
+    "brand_main": "Sanctuary",
+    "brand_accent": "Infrastructure",
+    "legal_lines": [
+      "Sanctuary Trading Group Limited · Registered in England",
+      "Strictly confidential - not for distribution",
+      "This website does not constitute an offer or binding commitment"
+    ]
+  }
+}

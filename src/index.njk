@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ site.meta.title }}</title>
+<meta name="description" content="{{ site.meta.description }}">
+<meta name="keywords" content="{{ site.meta.keywords }}">
+<meta property="og:title" content="{{ site.meta.og_title }}">
+<meta property="og:description" content="{{ site.meta.og_description }}">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Neue+Haas+Grotesk+Display+Pro:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="nav">
+  <a href="#" class="nav-brand">{{ site.nav.brand_main }} <span>{{ site.nav.brand_accent }}</span></a>
+  <ul class="nav-links">
+    {% for item in site.nav.links %}
+    <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ site.nav.cta_href }}" class="nav-cta">{{ site.nav.cta_text }}</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <div class="hero-eyebrow">{{ site.hero.eyebrow }}</div>
+    <h1 class="hero-headline">
+      {{ site.hero.headline_top | safe }}<br>
+      <em>{{ site.hero.headline_emphasis | safe }}</em>
+    </h1>
+    <p class="hero-tagline">{{ site.hero.tagline }}</p>
+    <div class="hero-divider"></div>
+    <p class="hero-model">"{{ site.hero.model_line }}"</p>
+    <div class="hero-actions">
+      <a href="{{ site.hero.primary_href }}" class="btn-primary">{{ site.hero.primary_text }}</a>
+      <a href="{{ site.hero.secondary_href }}" class="btn-secondary">{{ site.hero.secondary_text }}</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-quote">
+      <blockquote>"{{ site.hero.quote }}"</blockquote>
+      <cite>{{ site.hero.quote_cite }}</cite>
+    </div>
+    <div class="hero-stats">
+      {% for stat in site.hero.stats %}
+      <div class="stat">
+        <div class="stat-value">{{ stat.value }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works" id="how">
+  <div class="how-grid">
+    <div>
+      <div class="section-eyebrow reveal">{{ site.how.eyebrow }}</div>
+      <h2 class="section-heading reveal">{{ site.how.heading_top }}<br><em>{{ site.how.heading_emphasis }}</em><br>{{ site.how.heading_bottom }}</h2>
+      <p class="section-body reveal" style="margin-top:20px">{{ site.how.body }}</p>
+    </div>
+    <div class="how-steps">
+      {% for step in site.how.steps %}
+      <div class="how-step reveal">
+        <div class="step-num">{{ step.num }}</div>
+        <div class="step-content">
+          <div class="step-title">{{ step.title }}</div>
+          <div class="step-desc">{{ step.desc }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- OPERATOR ECONOMICS -->
+<section class="economics" id="economics">
+  <div class="economics-inner">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:0">
+      <div>
+        <div class="section-eyebrow reveal" style="color:rgba(255,255,255,0.4)">The Numbers</div>
+        <h2 class="section-heading reveal">The economics<br>are <em>exceptional.</em></h2>
+        <p class="section-body reveal" style="margin-top:20px">At current commissioning rates for complex needs placements, the Sanctuary lease represents less than 10% of a single child's monthly income. The numbers work at one child. At two, they become compelling.</p>
+      </div>
+      <div></div>
+    </div>
+    <div class="economics-numbers reveal">
+      <div class="econ-item">
+        <div class="econ-value">£55–60k</div>
+        <div class="econ-label">Monthly commissioning income per child</div>
+        <div class="econ-note">Complex needs LA placement</div>
+      </div>
+      <div class="econ-item">
+        <div class="econ-value">&lt;10%</div>
+        <div class="econ-label">Lease as proportion of single child income</div>
+        <div class="econ-note">At £5,000/month lease rate</div>
+      </div>
+      <div class="econ-item">
+        <div class="econ-value">Up to 2</div>
+        <div class="econ-label">Resident children per LDC</div>
+        <div class="econ-note">Higher income, lower-need placements</div>
+      </div>
+      <div class="econ-item">
+        <div class="econ-value">Ready</div>
+        <div class="econ-label">C2-consented and refurbished at handover</div>
+        <div class="econ-note">Ofsted application can begin immediately</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE NEED -->
+<section class="need" id="need">
+  <div class="economics-inner">
+    <div class="section-eyebrow reveal" style="color:rgba(255,255,255,0.4)">The Need</div>
+    <h2 class="section-heading reveal">A system<br>under <em>strain.</em></h2>
+    <p class="need-intro reveal">Children's residential care in England is facing unprecedented demand. The properties to meet it do not exist in sufficient number — and the planning system makes them extraordinarily hard to create. This is the gap Sanctuary was built to close.</p>
+    <div class="need-stats reveal">
+      <div class="need-stat">
+        <div class="need-stat-val">+25<em>%</em></div>
+        <div class="need-stat-desc">Rise in the number of children in care over the past decade — particularly among those aged 16 and over, with increasingly complex emotional and behavioural needs.</div>
+      </div>
+      <div class="need-stat">
+        <div class="need-stat-val">£1.5<em>bn</em></div>
+        <div class="need-stat-desc">Fall in funding for early intervention services — pushing children into care later, with more severe needs requiring intensive therapeutic support.</div>
+      </div>
+      <div class="need-stat">
+        <div class="need-stat-val">Acute</div>
+        <div class="need-stat-desc">Shortage of suitable placements, forcing local authorities toward unregulated accommodation — repeated moves, instability, and a lack of therapeutic care.</div>
+      </div>
+    </div>
+    <p class="need-close reveal">"Consented C2 stock is the scarcest resource in children's residential care. Sanctuary exists to remove that constraint — so good operators can do what they do best."</p>
+  </div>
+</section>
+
+<!-- ASSETS -->
+<section class="assets" id="assets">
+  <div class="assets-header">
+    <div>
+      <div class="section-eyebrow reveal">{{ site.assets.eyebrow }}</div>
+      <h2 class="section-heading reveal">{{ site.assets.heading_top }}<br><em>{{ site.assets.heading_emphasis }}</em><br>{{ site.assets.heading_bottom }}</h2>
+    </div>
+    <div>
+      <p class="section-body reveal">{{ site.assets.body }}</p>
+      <p class="section-body reveal" style="margin-top:16px;font-size:14px;color:var(--ink-light)">{{ site.assets.note }}</p>
+    </div>
+  </div>
+  <div class="assets-grid reveal">
+    {% for asset in site.assets.cards %}
+    <div class="asset-card">
+      <div class="asset-status {{ asset.status_class }}">{{ asset.status }}</div>
+      <div class="asset-name">{{ asset.name }}</div>
+      <div class="asset-location">{{ asset.location }}</div>
+      <div class="asset-metrics">
+        {% for metric in asset.metrics %}
+        <div class="asset-metric">
+          <span class="metric-key">{{ metric.key }}</span>
+          <span class="metric-val{% if metric.highlight %} highlight{% endif %}">{{ metric.val }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      <a href="{{ asset.action_href }}" class="asset-action">{{ asset.action_text }}</a>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+<!-- THE MODEL -->
+<section class="model" id="model">
+  <div class="model-grid">
+    <div>
+      <div class="section-eyebrow reveal">The Sanctuary Model</div>
+      <h2 class="section-heading reveal">Not just<br>a property.<br><em>A pathway.</em></h2>
+      <p class="section-body reveal" style="margin-top:20px;">Sanctuary properties are designed around a therapeutic framework developed over twenty years of working with young people. Operators who share this ethos find that the homes support better placement stability, stronger Ofsted outcomes, and a different quality of care.</p>
+      <div class="model-pillars" style="margin-top:48px">
+        <div class="pillar reveal">
+          <div class="pillar-num">i</div>
+          <div>
+            <div class="pillar-title">Therapeutic Design</div>
+            <div class="pillar-desc">PACE framework, DBT and trauma-informed practice embedded in the physical and operational design of every home. Ligature-proof, fire-safe, and emotionally considered.</div>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <div class="pillar-num">ii</div>
+          <div>
+            <div class="pillar-title">Pathway to Independence</div>
+            <div class="pillar-desc">A 23-workshop life skills programme covering financial literacy, identity, relationships, and employment — available to operators as an embedded curriculum.</div>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <div class="pillar-num">iii</div>
+          <div>
+            <div class="pillar-title">Care to Career</div>
+            <div class="pillar-desc">Partnership with Balfour Beatty and the Sanctuary Group provides care-experienced young people with employment pathways, mentoring, and alumni support for life.</div>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <div class="pillar-num">iv</div>
+          <div>
+            <div class="pillar-title">Rites of Passage</div>
+            <div class="pillar-desc">Partnerships with Journeyman UK, A Band of Brothers, Rites for Girls, and Woman Within provide structured rites of passage programmes for young people at key life transitions.</div>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <div class="pillar-num">v</div>
+          <div>
+            <div class="pillar-title">Sanctuary Credits</div>
+            <div class="pillar-desc">An internal recognition currency running through the Pathway to Independence programme. Children earn credits for engagement, effort, and growth — building agency, self-worth, and a tangible record of achievement.</div>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <div class="pillar-num">vi</div>
+          <div>
+            <div class="pillar-title">Five Stages of the Journey</div>
+            <div class="pillar-desc">Intensive Home → Group Living → Semi-Independent Living → Care to Career → Mentoring for Life. Not a placement. A pathway. The Sanctuary model follows a child from crisis to independence — and beyond.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="model-quote reveal">
+      <blockquote>"This is the home I needed. That is why I built it — not as an investment thesis, but as a response to lived experience."</blockquote>
+      <cite>Robbie Mair — Founder</cite>
+    </div>
+  </div>
+</section>
+
+<!-- THE FIVE JOURNEYS -->
+<section class="journey" id="journey">
+  <div class="section-eyebrow reveal">The Five Journeys</div>
+  <h2 class="section-heading reveal">A pathway,<br><em>not a placement.</em></h2>
+  <p class="section-body reveal" style="margin-top:20px">The Sanctuary Model recognises that every child's path is unique. It supports children and young people through five distinct stages — from the depths of crisis to genuine, lasting independence, and the lifelong mentoring that follows. Operators can position a home anywhere along this pathway.</p>
+  <div class="journey-stages">
+    <div class="stage reveal">
+      <div class="stage-num">1</div>
+      <div class="stage-main">
+        <div class="stage-name">Sanctuary Intensive Home</div>
+        <div class="stage-purpose">A therapeutic home for 1–2 children with highly complex needs, where the priority is safety, stability, and the slow rebuilding of trust.</div>
+      </div>
+      <div class="stage-detail">
+        <div class="stage-focus-label">Focus</div>
+        <div class="stage-focus">Emotional stabilisation, trauma recovery, and rebuilding trust in adults and the world.</div>
+        <div class="stage-milestone">Milestone — achieving safety and emotional regulation after trauma.</div>
+      </div>
+    </div>
+    <div class="stage reveal">
+      <div class="stage-num">2</div>
+      <div class="stage-main">
+        <div class="stage-name">Sanctuary Group Living</div>
+        <div class="stage-purpose">A therapeutic home for up to 4 children ready to engage with shared living and the social world of peers.</div>
+      </div>
+      <div class="stage-detail">
+        <div class="stage-focus-label">Focus</div>
+        <div class="stage-focus">Social integration, interpersonal skills, and continued therapeutic care in a shared environment.</div>
+        <div class="stage-milestone">Milestone — building meaningful relationships and trust with others.</div>
+      </div>
+    </div>
+    <div class="stage reveal">
+      <div class="stage-num">3</div>
+      <div class="stage-main">
+        <div class="stage-name">Sanctuary Semi-Independent Living</div>
+        <div class="stage-purpose">A home for one young person preparing for independence — supported by the Pathway to Independence workshop programme.</div>
+      </div>
+      <div class="stage-detail">
+        <div class="stage-focus-label">Focus</div>
+        <div class="stage-focus">Life-skills training — budgeting, cooking, personal responsibility — with support available when needed.</div>
+        <div class="stage-milestone">Milestone — transitioning to independence while retaining a safety net.</div>
+      </div>
+    </div>
+    <div class="stage reveal">
+      <div class="stage-num">4</div>
+      <div class="stage-main">
+        <div class="stage-name">Sanctuary Care to Career</div>
+        <div class="stage-purpose">A careers programme for young people transitioning from care — turning lived experience into vocation, stability, and financial independence.</div>
+      </div>
+      <div class="stage-detail">
+        <div class="stage-focus-label">Focus</div>
+        <div class="stage-focus">Corporate partnerships, vocational training, role models from care, and structured mentorship.</div>
+        <div class="stage-milestone">Milestone — a career aligned with passion, and genuine financial independence.</div>
+      </div>
+    </div>
+    <div class="stage reveal">
+      <div class="stage-num">5</div>
+      <div class="stage-main">
+        <div class="stage-name">Sanctuary Mentoring for Life</div>
+        <div class="stage-purpose">Lifelong mentorship and access to vibrant communities — support through every key transition, mirroring the care a family provides.</div>
+      </div>
+      <div class="stage-detail">
+        <div class="stage-focus-label">Focus</div>
+        <div class="stage-focus">Guidance through leaving care, employment, relationships, parenthood, and beyond.</div>
+        <div class="stage-milestone">Milestone — no young person ever feels forgotten or unsupported.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THERAPEUTIC FRAMEWORK -->
+<section class="therapeutic" id="therapeutic">
+  <div class="section-eyebrow reveal">Therapeutic Framework</div>
+  <h2 class="section-heading reveal">Looking behind<br>the <em>behaviour.</em></h2>
+  <p class="section-body reveal" style="margin-top:20px">Sanctuary homes are designed to support both verbal and non-verbal therapies, meeting each child where they are. The principle is simple and proven — the best therapeutic resource for a traumatised child is the adults involved in their daily care, properly trained and supported to understand the emotional drivers behind behaviour.</p>
+  <div class="therapeutic-grid">
+    <div class="therapy-col reveal">
+      <div class="therapy-col-title">Non-Verbal &amp; Creative Therapies</div>
+      <div class="therapy-item">
+        <div class="therapy-item-name">Play, Art &amp; Music Therapy</div>
+        <div class="therapy-item-desc">Building confidence, expression, and emotional awareness for younger children and those not yet ready for verbal work.</div>
+      </div>
+      <div class="therapy-item">
+        <div class="therapy-item-name">Drama &amp; Equine-Assisted Therapy</div>
+        <div class="therapy-item-desc">Developing trust, empathy, and emotional regulation through experience rather than conversation.</div>
+      </div>
+      <div class="therapy-item">
+        <div class="therapy-item-name">Monopoly &amp; Cashflow 101</div>
+        <div class="therapy-item-desc">Games used as non-verbal therapy and financial education — building strategic thinking, social interaction, and an understanding of money working for you.</div>
+      </div>
+    </div>
+    <div class="therapy-col reveal">
+      <div class="therapy-col-title">Verbal &amp; Structured Interventions</div>
+      <div class="therapy-item">
+        <div class="therapy-item-name">CBT &amp; DBT</div>
+        <div class="therapy-item-desc">Cognitive and dialectical behavioural approaches for emotional regulation, coping skills, and managing distress.</div>
+      </div>
+      <div class="therapy-item">
+        <div class="therapy-item-name">The PACE Model</div>
+        <div class="therapy-item-desc">Playfulness, Acceptance, Curiosity and Empathy — trauma-informed connection embedded in the daily life of the home.</div>
+      </div>
+      <div class="therapy-item">
+        <div class="therapy-item-name">Holistic &amp; Adaptable</div>
+        <div class="therapy-item-desc">Verbal and non-verbal methods combined and tailored to each child's communication style and developmental stage.</div>
+      </div>
+    </div>
+  </div>
+  <div class="therapy-feature reveal">
+    <div class="therapy-feature-label">Therapeutic Guidance — Sylvia Duncan</div>
+    <div class="therapy-feature-title">"The best resource for a child's recovery is the adults in their daily care."</div>
+    <div class="therapy-feature-body">Sanctuary's therapeutic framework is informed by the guidance of Sylvia Duncan — Clinical Psychologist, Family Therapist, and Chair of the IRCT. Qualified in 1972, she has dedicated her professional life to working with traumatised children and adults, researching and publishing widely in the field of child abuse and neglect. Her conviction — that carers and educators, properly trained and supported, are the most powerful therapeutic resource a child can have — sits at the heart of the Sanctuary Model.</div>
+  </div>
+</section>
+
+<!-- EDUCATIONAL ADVOCACY -->
+<section class="advocacy">
+  <div class="advocacy-inner">
+    <div>
+      <h2 class="advocacy-title reveal">Educational advocacy<br>and <em>post-care support.</em></h2>
+    </div>
+    <div class="advocacy-text reveal">
+      <p>Mainstream schools often fail children with SEND or trauma-related difficulties. The Sanctuary Model takes an active role — identifying educational barriers, supporting Education, Health and Care Plan applications, and collaborating with CAMHS, educational psychologists, and SEND specialists.</p>
+      <p>The commitment does not end at 18. Sanctuary connects care leavers with mentorship, vibrant communities, and employment opportunities — including in-house roles where young people can use their lived experience to support others. Lifelong guidance, mirroring the care a family provides.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARE TO CAREER -->
+<section class="career" id="career">
+  <div class="economics-inner">
+    <div class="section-eyebrow reveal" style="color:rgba(255,255,255,0.4)">Care to Career</div>
+    <h2 class="section-heading reveal">From care<br>to <em>vocation.</em></h2>
+    <p class="career-body reveal">The Sanctuary Care to Career Pathway supports young people leaving care into meaningful, stable employment — turning lived experience into strength, and aligning work with genuine passion and capability.</p>
+    <div class="career-grid reveal">
+      <div class="career-card">
+        <div class="career-card-num">i</div>
+        <div class="career-card-title">Corporate Partnerships</div>
+        <div class="career-card-body">Collaboration with major employers to provide structured vocational training and long-term employment contracts — building skills, stability, and a real future for young people leaving care.</div>
+      </div>
+      <div class="career-card">
+        <div class="career-card-num">ii</div>
+        <div class="career-card-title">Employment Within Sanctuary</div>
+        <div class="career-card-body">Roles within the Sanctuary community for young people drawn to care professions — leveraging lived experience to support the next child, with ongoing professional development.</div>
+      </div>
+      <div class="career-card">
+        <div class="career-card-num">iii</div>
+        <div class="career-card-title">Role Models &amp; Mentorship</div>
+        <div class="career-card-body">Care leavers introduced to role models who have walked the same path, with tailored mentorship to build confidence, networks, and genuine career readiness.</div>
+      </div>
+    </div>
+    <div class="career-partner reveal">
+      <div class="career-partner-text"><strong>In partnership with Balfour Beatty.</strong> Sanctuary has agreed in principle a partnership with Balfour Beatty to provide care-experienced young people with vocational training and structured five-year employment contracts — a genuine route from care to a lasting career. <em style="color:rgba(255,255,255,0.4);font-style:italic">Subject to formal agreement.</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOUNDER -->
+<section class="founder" id="founder">
+  <div class="founder-grid">
+    <div>
+      <div class="section-eyebrow reveal">The Founder</div>
+      <h2 class="section-heading reveal">Built from<br><em>experience,</em><br>not theory.</h2>
+      <div class="founder-story" style="margin-top:40px">
+        <p class="reveal"><strong>At seventeen, Robbie Mair was homeless</strong> — living in a tent in a park in South Wales. Violence at home had been part of his life. A period of family breakdown left him without a safe place in the world. Loneliness and anger consumed him.</p>
+        <p class="reveal">An elderly couple took him in. They gave him not just a roof — but stability, kindness, and the experience of being genuinely believed in. <strong>Not a day passes that Robbie does not remember them with gratitude.</strong> They are gone now, but they live in everything Sanctuary is built to be.</p>
+        <p class="reveal">In the years that followed, Robbie channelled what had been done to him into discipline and service. He trained in Japanese jujitsu — eventually earning three black belts and a purple belt in Brazilian jujitsu — as a practice of self-mastery and emotional regulation. He spent thirty years doing charity work: a Samaritans trained volunteer, seven years managing Crisis homeless shelters over Christmas week for over 1,000 guests, Chairman and mentor at Journeyman UK, and founder of an emotional intelligence support group that he eventually handed over — which has since grown to multiple locations and an online community.</p>
+        <p class="reveal">Twenty years as a management consultant brought a different discipline — delivering £100m+ in profitability across 120 companies, 63 M&A transactions, 23 industries. Nokia, Vodafone, WPP, Lloyds Banking Group. The skills to identify root problems, design practical solutions, and build things that last.</p>
+        <p class="reveal"><strong>Sanctuary is where all of it converges.</strong> The property expertise. The consulting discipline. The three decades of sitting with people in crisis. The personal experience of what the right environment at the right moment can do to a life.</p>
+        <p class="reveal">Robbie's wife Popi is a physiotherapist with over 22 years of healthcare experience. Her clinical insight and unwavering support have shaped Sanctuary from the beginning — and she is available to support homes clinically where children's needs require it.</p>
+      </div>
+    </div>
+    <div class="founder-credentials">
+      <div class="credential reveal">
+        <div class="credential-title">Background</div>
+        <div class="credential-value">25+ years · £100m+ profitability · 120 companies · 63 M&A transactions</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Portfolio</div>
+        <div class="credential-value">15 properties across England</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Charitable work</div>
+        <div class="credential-value">Samaritans trained volunteer · Crisis (7 years, 1,000+ guests) · Journeyman UK Chairman · Co Mixed Group founder</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Responsible Individual</div>
+        <div class="credential-value">Beth Massey RI — 30+ years, multiple Outstanding-rated homes</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Clinical team</div>
+        <div class="credential-value">Sylvia Duncan — Chair, IRCT · Qualified 1972 · Published researcher in child trauma</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Planning expertise</div>
+        <div class="credential-value">2 LDCs confirmed · 4 appeals pending · 3 LDC applications pending</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:80px; background:var(--accent-light); padding:56px 64px; border-left:3px solid var(--accent);" class="reveal">
+    <div style="font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); margin-bottom:20px;">The Responsible Individual — Beth Massey</div>
+    <blockquote style="font-family:var(--serif); font-size:26px; font-style:italic; font-weight:300; color:var(--ink); line-height:1.4; margin-bottom:24px; max-width:760px;">"Our children are the most important part of our society's future — and I've dedicated my life to making that future brighter."</blockquote>
+    <p style="font-size:15px; color:var(--ink-mid); line-height:1.7; max-width:680px;">Beth Massey brings more than 30 years in health and social care, and experience as an Ofsted-registered Outstanding manager. She has worked across homes, teams, and senior leadership to help children feel safe, loved, and seen — a creative, heart-led leader who specialises in improving services, developing new homes, and mentoring managers to believe in their own vision and capability.</p>
+  </div>
+</section>
+
+<!-- OPERATOR FILTER -->
+<section class="operator-filter" id="operators">
+  <div class="filter-grid">
+    <div>
+      <div class="section-eyebrow reveal" style="color:rgba(255,255,255,0.4)">Who We Work With</div>
+      <h2 class="section-heading reveal">We are<br>selective.<br><em>Intentionally.</em></h2>
+      <p class="section-body reveal" style="margin-top:20px">Sanctuary works with a small number of operators who share the ethos and meet the operational standard. Preferred operators get first access to new consented stock as the pipeline grows.</p>
+      <div class="sanctuary-provides reveal">
+        <div class="provides-title">What Sanctuary provides</div>
+        <ul class="provides-list">
+          <li>Consented, compliant C2 property — no planning risk</li>
+          <li>Fully refurbished to Ofsted compliance standard</li>
+          <li>Fixed lease with upside participation clause</li>
+          <li>Structural maintenance throughout the lease term</li>
+          <li>Access to the Sanctuary therapeutic model and curriculum</li>
+          <li>First look at new pipeline stock for preferred partners</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div style="color:rgba(255,255,255,0.4);font-size:11px;font-weight:500;letter-spacing:0.16em;text-transform:uppercase;margin-bottom:8px;" class="reveal">Operator criteria</div>
+      <div class="filter-list">
+        <div class="filter-item reveal">
+          <div class="filter-check">—</div>
+          <div>
+            <div class="filter-text">Minimum 3 operational homes</div>
+            <div class="filter-sub">With verifiable Ofsted inspection history</div>
+          </div>
+        </div>
+        <div class="filter-item reveal">
+          <div class="filter-check">—</div>
+          <div>
+            <div class="filter-text">Good or Outstanding rating</div>
+            <div class="filter-sub">Most recent Ofsted inspection outcome</div>
+          </div>
+        </div>
+        <div class="filter-item reveal">
+          <div class="filter-check">—</div>
+          <div>
+            <div class="filter-text">Active LA commissioning pipeline</div>
+            <div class="filter-sub">Verifiable placement relationships</div>
+          </div>
+        </div>
+        <div class="filter-item reveal">
+          <div class="filter-check">—</div>
+          <div>
+            <div class="filter-text">Confirmed RM and RI in place</div>
+            <div class="filter-sub">Or credibly in process before mobilisation</div>
+          </div>
+        </div>
+        <div class="filter-item reveal">
+          <div class="filter-check">—</div>
+          <div>
+            <div class="filter-text">Financial strength</div>
+            <div class="filter-sub">Sufficient working capital for mobilisation costs</div>
+          </div>
+        </div>
+        <div class="filter-item reveal">
+          <div class="filter-check">—</div>
+          <div>
+            <div class="filter-text">Shared therapeutic ethos</div>
+            <div class="filter-sub">Trauma-informed, child-centred practice</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SALE & LEASEBACK -->
+<section class="leaseback" id="leaseback">
+  <div class="leaseback-grid">
+    <div>
+      <div class="section-eyebrow reveal">Beyond the Pipeline</div>
+      <h2 class="section-heading reveal">Sourcing &amp;<br><em>sale-and-leaseback.</em></h2>
+      <p class="section-body reveal" style="margin-top:20px">Sanctuary's existing pipeline is not the limit of what we can offer. For operators who have identified a property — or who want a specific area covered — Sanctuary can source, acquire, and consent a new asset, then lease it back on the same long-term partnership terms.</p>
+      <div class="leaseback-steps reveal">
+        <div class="lb-step">
+          <div class="lb-num">1</div>
+          <div>
+            <div class="lb-step-title">Source</div>
+            <div class="lb-step-desc">Drawing on 25+ years of property and acquisition experience, Sanctuary identifies suitable properties in your target commissioning area.</div>
+          </div>
+        </div>
+        <div class="lb-step">
+          <div class="lb-num">2</div>
+          <div>
+            <div class="lb-step-title">Acquire &amp; Consent</div>
+            <div class="lb-step-desc">Sanctuary acquires the property and takes it through the planning process to confirmed C2 use — carrying the risk and the cost.</div>
+          </div>
+        </div>
+        <div class="lb-step">
+          <div class="lb-num">3</div>
+          <div>
+            <div class="lb-step-title">Refurbish to Compliance</div>
+            <div class="lb-step-desc">The property is refurbished to full Ofsted compliance standard — ligature-proof, fire-safe, therapeutically designed.</div>
+          </div>
+        </div>
+        <div class="lb-step">
+          <div class="lb-num">4</div>
+          <div>
+            <div class="lb-step-title">Lease Back</div>
+            <div class="lb-step-desc">The completed, consented, compliant home is leased to you on long-term fixed terms — the same Sanctuary partnership model.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="leaseback-card reveal">
+      <div class="leaseback-card-label">For Operators &amp; Investors</div>
+      <div class="leaseback-card-title">A bespoke home, in the right place, with none of the risk.</div>
+      <div class="leaseback-card-body">For an operator with a strong LA relationship in a specific area, this is the fastest route to a compliant home where you need it. For investors, it is an opportunity to fund the acquisition of a consented, income-producing care asset with Sanctuary managing every stage from sourcing to lease.<br><br>Sanctuary carries the planning risk. You gain a purpose-built home or a structured investment — without the 12–18 months of friction that usually defines this sector.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section class="pipeline" id="pipeline">
+  <div class="pipeline-header">
+    <div>
+      <div class="section-eyebrow reveal">The Pipeline</div>
+      <h2 class="section-heading reveal">9 properties.<br><em>One platform.</em></h2>
+    </div>
+    <div>
+      <p class="section-body reveal">From Milton Keynes to Mitcham, Stockton to South London — Sanctuary's pipeline spans high-demand commissioning areas across England. Register interest in pipeline properties now for conditional terms ahead of consent.</p>
+    </div>
+  </div>
+  <div class="pipeline-map reveal">
+    <div class="map-title">Pipeline status — May 2026</div>
+    <div class="pipeline-dots">
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-confirmed"></div>
+        <div class="dot-location">Milton Keynes</div>
+        <div class="dot-status">LDC confirmed — Q3 2026</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-confirmed"></div>
+        <div class="dot-location">New Malden, London</div>
+        <div class="dot-status">LDC confirmed — Q1 2027</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-appeal"></div>
+        <div class="dot-location">Stockton-on-Tees</div>
+        <div class="dot-status">Planning appeal — late 2026</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-appeal"></div>
+        <div class="dot-location">Skelton, Teesside</div>
+        <div class="dot-status">Planning appeal — late 2026</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-appeal"></div>
+        <div class="dot-location">Guisborough, Teesside</div>
+        <div class="dot-status">Planning appeal — late 2026</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-pipeline"></div>
+        <div class="dot-location">Mitcham, South London</div>
+        <div class="dot-status">Pre-application — 2027</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-pipeline"></div>
+        <div class="dot-location">Middlesbrough</div>
+        <div class="dot-status">Pre-application — 2027</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-pipeline"></div>
+        <div class="dot-location">Stockton (Corp St)</div>
+        <div class="dot-status">Pre-application — 2027</div>
+      </div>
+      <div class="pipeline-dot">
+        <div class="dot-marker dot-pipeline"></div>
+        <div class="dot-location">Teasel Court, Stockton</div>
+        <div class="dot-status">Pre-application — 2027</div>
+      </div>
+    </div>
+    <div class="pipeline-legend">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div>LDC Confirmed</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--gold)"></div>Appeal Pending</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rule)"></div>Pipeline</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-grid">
+    <div>
+      <div class="section-eyebrow reveal">{{ site.contact.eyebrow }}</div>
+      <h2 class="section-heading reveal">{{ site.contact.heading_top }}<br><em>{{ site.contact.heading_emphasis }}</em></h2>
+      <p class="section-body reveal" style="margin-top:20px">{{ site.contact.body }}</p>
+      <p class="section-body reveal" style="margin-top:16px;font-size:14px">{{ site.contact.note }}</p>
+      <div class="contact-info" style="margin-top:40px">
+        <div class="contact-detail reveal">
+          <div class="contact-label">{{ site.contact.direct_label }}</div>
+          <div class="contact-value"><a href="mailto:{{ site.contact.direct_email }}">{{ site.contact.direct_email }}</a></div>
+        </div>
+        <div class="contact-detail reveal">
+          <div class="contact-label">{{ site.contact.mobile_label }}</div>
+          <div class="contact-value"><a href="tel:{{ site.contact.mobile_tel }}">{{ site.contact.mobile_display }}</a></div>
+        </div>
+        <div class="contact-detail reveal">
+          <div class="contact-label">{{ site.contact.response_label }}</div>
+          <div class="contact-value">{{ site.contact.response_value }}</div>
+        </div>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form" novalidate>
+      <div class="form-group">
+        <label class="form-label" for="fullName">Full name</label>
+        <input type="text" id="fullName" name="fullName" class="form-input" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="organisation">Organisation</label>
+        <input type="text" id="organisation" name="organisation" class="form-input" placeholder="Your organisation" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="email">Email</label>
+        <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="operationalHomes">Number of operational homes</label>
+        <select id="operationalHomes" name="operationalHomes" class="form-select" required>
+          <option value="" disabled selected>Select</option>
+          <option>1–2 homes</option>
+          <option>3–5 homes</option>
+          <option>6–10 homes</option>
+          <option>10+ homes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="ofstedOutcome">Most recent Ofsted outcome</label>
+        <select id="ofstedOutcome" name="ofstedOutcome" class="form-select" required>
+          <option value="" disabled selected>Select</option>
+          <option>Outstanding</option>
+          <option>Good</option>
+          <option>Requires Improvement</option>
+          <option>Inadequate</option>
+          <option>Not yet inspected</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="propertyInterest">Property of interest</label>
+        <select id="propertyInterest" name="propertyInterest" class="form-select" required>
+          <option value="" disabled selected>Select</option>
+          <option>19 Bampton Close, Milton Keynes (Q3 2026)</option>
+          <option>25 Cleveland Road, New Malden (Q1 2027)</option>
+          <option>Teesside pipeline (late 2026/2027)</option>
+          <option>South London pipeline (2027)</option>
+          <option>All available stock</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="message">Anything else</label>
+        <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your LA pipeline and commissioning area..."></textarea>
+      </div>
+      <p class="form-note">By submitting this form you agree to receive our standard NDA for execution before the full asset pack is released. We do not share your details with third parties.</p>
+      <p id="contact-form-status" class="form-status" aria-live="polite"></p>
+      <button id="contact-form-submit" type="submit" class="btn-primary" style="cursor:pointer;border:none;font-family:var(--sans);margin-top:8px">Submit Enquiry</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">{{ site.footer.brand_main }} <span>{{ site.footer.brand_accent }}</span></div>
+  <div class="footer-legal">
+    {% for line in site.footer.legal_lines %}
+    {{ line }}{% if not loop.last %}<br>{% endif %}
+    {% endfor %}
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
