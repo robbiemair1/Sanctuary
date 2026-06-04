@@ -279,8 +279,8 @@ nav.scrolled { border-bottom-color: var(--rule); }
 }
 
 .hero-logo img {
-  width: min(100%, 520px);
-  max-height: 260px;
+  width: min(100%, 780px);
+  max-height: 390px;
   height: auto;
   display: block;
   object-fit: contain;
