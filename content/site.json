@@ -4,7 +4,7 @@
     "description": "Sanctuary Infrastructure provides consented, refurbished Class C2 children's home properties to established operators across England. No planning risk. Ready for the operator's Ofsted application.",
     "keywords": "C2 children's home property lease, consented care property, children's home operator lease, C2 planning consent, residential children's home property, care property platform England",
     "og_title": "Sanctuary Infrastructure - Care Property Platform",
-    "og_description": "We create the asset. You deliver the care. Consented C2 properties for established children's home operators."
+    "og_description": "We create the home. You deliver the care. Consented C2 properties for established children's home operators."
   },
   "nav": {
     "brand_main": "Sanctuary",
@@ -123,24 +123,23 @@
           },
           {
             "key": "Permitted use",
-            "val": "C2 - up to 2 children"
+            "val": "C2 — up to 2 children"
           },
           {
-            "key": "Staffing",
-            "val": "Up to 3 inc. RM"
-          },
-          {
-            "key": "Target lease",
-            "val": "£5,000-£6,000/mo",
-            "highlight": true
+            "key": "Stage",
+            "val": "In development — subject to Ofsted registration"
           },
           {
             "key": "Availability",
-            "val": "Q3 2026 - fully refurbished"
+            "val": "Q3 2026 — refurbishment in progress"
           },
           {
             "key": "Commissioning",
             "val": "Strong MK LA demand"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Request asset pack",
@@ -158,24 +157,23 @@
           },
           {
             "key": "Permitted use",
-            "val": "C2 - up to 2 children"
+            "val": "C2 — up to 2 children"
           },
           {
-            "key": "Est. value",
-            "val": "£1,000,000"
-          },
-          {
-            "key": "Target lease",
-            "val": "£4,500-£6,000/mo",
-            "highlight": true
+            "key": "Stage",
+            "val": "LDC confirmed — refurbishment to be scheduled"
           },
           {
             "key": "Availability",
-            "val": "Q1 2027 - vacant possession"
+            "val": "Q1 2027"
           },
           {
             "key": "Area",
             "val": "Premium SW London"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Request asset pack",
@@ -192,6 +190,10 @@
             "val": "4 x 3-4 bed detached"
           },
           {
+            "key": "Permitted use",
+            "val": "C2 — up to 2 children per property"
+          },
+          {
             "key": "Status",
             "val": "Planning Inspectorate appeal"
           },
@@ -200,17 +202,12 @@
             "val": "Late 2026 / Q1 2027"
           },
           {
-            "key": "Target lease",
-            "val": "£3,500-£4,500/mo",
-            "highlight": true
-          },
-          {
             "key": "Area",
             "val": "Active LA commissioning"
           },
           {
-            "key": "Register interest",
-            "val": "Conditional terms available"
+            "key": "Commercial terms",
+            "val": "Structured commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Register interest",
