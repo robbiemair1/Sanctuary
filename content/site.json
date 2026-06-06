@@ -57,7 +57,7 @@
       },
       {
         "value": "2",
-        "label": "LDCs confirmed & ready"
+        "label": "C2 consents confirmed"
       },
       {
         "value": "£0",
@@ -127,11 +127,11 @@
           },
           {
             "key": "Planning Position",
-            "val": "LDC confirmed"
+            "val": "✓ C2 consent granted"
           },
           {
             "key": "Stage",
-            "val": "In development"
+            "val": "Refurbishment in progress"
           },
           {
             "key": "Availability",
@@ -143,7 +143,7 @@
           },
           {
             "key": "Commercial terms",
-            "val": "Available on request"
+            "val": "Structured FRI commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Request asset pack",
@@ -165,11 +165,11 @@
           },
           {
             "key": "Planning Position",
-            "val": "LDC confirmed"
+            "val": "✓ C2 consent granted"
           },
           {
             "key": "Stage",
-            "val": "Development planning"
+            "val": "Occupied"
           },
           {
             "key": "Availability",
@@ -181,7 +181,7 @@
           },
           {
             "key": "Commercial terms",
-            "val": "Available on request"
+            "val": "Structured FRI commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Request asset pack",
@@ -203,7 +203,7 @@
           },
           {
             "key": "Planning Position",
-            "val": "Appeals and applications in progress"
+            "val": "4 appeals and 2 applications in progress"
           },
           {
             "key": "Stage",
@@ -219,7 +219,7 @@
           },
           {
             "key": "Commercial terms",
-            "val": "Structured commercial leases available. Terms available on request."
+            "val": "Structured FRI commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Register interest",
@@ -228,8 +228,8 @@
       {
         "status": "Application Pending",
         "status_class": "status-appeal",
-        "name": "London Pipeline",
-        "location": "Morland Close, Mitcham",
+        "name": "Mitcham CR4",
+        "location": "London",
         "metrics": [
           {
             "key": "Property",
@@ -257,7 +257,7 @@
           },
           {
             "key": "Commercial terms",
-            "val": "Structured commercial leases available. Terms available on request."
+            "val": "Structured FRI commercial leases available. Terms available on request."
           }
         ],
         "action_text": "Register interest",
