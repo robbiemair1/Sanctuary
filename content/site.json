@@ -118,24 +118,32 @@
         "location": "Milton Keynes MK4",
         "metrics": [
           {
-            "key": "Permitted use",
-            "val": "C2 — up to 2 children"
+            "key": "Property",
+            "val": "3-bedroom detached house"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 2 children"
+          },
+          {
+            "key": "Planning Position",
+            "val": "LDC confirmed"
           },
           {
             "key": "Stage",
-            "val": "In development — subject to Ofsted registration"
+            "val": "In development"
           },
           {
             "key": "Availability",
-            "val": "Q3 2026 — refurbishment in progress"
+            "val": "July 2026"
           },
           {
             "key": "Area",
-            "val": "Strong MK LA demand"
+            "val": "Milton Keynes"
           },
           {
             "key": "Commercial terms",
-            "val": "Structured commercial leases available. Terms available on request."
+            "val": "Available on request"
           }
         ],
         "action_text": "Request asset pack",
@@ -145,53 +153,107 @@
         "status": "✓ LDC Confirmed",
         "status_class": "status-confirmed",
         "name": "New Malden, KT3",
-        "location": "Kingston upon Thames, London",
+        "location": "Royal Borough of Kingston",
         "metrics": [
           {
-            "key": "Permitted use",
-            "val": "C2 — up to 2 children"
+            "key": "Property",
+            "val": "3-bedroom detached house"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 2 children"
+          },
+          {
+            "key": "Planning Position",
+            "val": "LDC confirmed"
           },
           {
             "key": "Stage",
-            "val": "LDC confirmed — refurbishment to be scheduled"
+            "val": "Development planning"
           },
           {
             "key": "Availability",
-            "val": "Q1 2027"
+            "val": "November 2027 (estimated)"
           },
           {
             "key": "Area",
-            "val": "Premium SW London"
+            "val": "Royal Borough of Kingston"
           },
           {
             "key": "Commercial terms",
-            "val": "Structured commercial leases available. Terms available on request."
+            "val": "Available on request"
           }
         ],
         "action_text": "Request asset pack",
         "action_href": "#contact"
       },
       {
-        "status": "Appeal Pending",
+        "status": "Pipeline",
         "status_class": "status-appeal",
-        "name": "Pipeline - Teesside",
-        "location": "Stockton · Skelton · Guisborough",
+        "name": "Teesside Pipeline",
+        "location": "Stockton · Skelton · Guisborough · Middlesbrough",
         "metrics": [
           {
-            "key": "Permitted use",
-            "val": "C2 — up to 2 children per property"
+            "key": "Property",
+            "val": "6-property Teesside pipeline"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 12 children across six homes (indicative)"
+          },
+          {
+            "key": "Planning Position",
+            "val": "Appeals and applications in progress"
           },
           {
             "key": "Stage",
-            "val": "Planning Inspectorate appeal — consent pending"
+            "val": "Pipeline development"
           },
           {
             "key": "Availability",
-            "val": "Est. consent late 2026 / Q1 2027"
+            "val": "From September 2026 (subject to consent)"
           },
           {
             "key": "Area",
-            "val": "Active LA commissioning"
+            "val": "Stockton · Skelton · Guisborough · Middlesbrough"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured commercial leases available. Terms available on request."
+          }
+        ],
+        "action_text": "Register interest",
+        "action_href": "#contact"
+      },
+      {
+        "status": "Application Pending",
+        "status_class": "status-appeal",
+        "name": "London Pipeline",
+        "location": "Morland Close, Mitcham",
+        "metrics": [
+          {
+            "key": "Property",
+            "val": "2-bedroom terraced house"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 2 children"
+          },
+          {
+            "key": "Planning Position",
+            "val": "Planning application pending"
+          },
+          {
+            "key": "Stage",
+            "val": "Pipeline development"
+          },
+          {
+            "key": "Availability",
+            "val": "September 2026"
+          },
+          {
+            "key": "Area",
+            "val": "London"
           },
           {
             "key": "Commercial terms",
