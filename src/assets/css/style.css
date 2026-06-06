@@ -641,10 +641,16 @@ section { padding: 120px 80px; scroll-margin-top: 80px; }
    OPERATOR FILTER
 ═══════════════════════════════════════ */
 .operator-filter { background: var(--accent); color: #fff; }
-
 .filter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 .filter-grid .section-heading { color: #fff; }
 .filter-grid .section-body { color: rgba(255,255,255,0.6); }
+.selective-responsibility {
+  font-size: 15px;
+  color: rgba(255,255,255,0.72);
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  max-width: 560px;
+}
 
 .filter-list { display: flex; flex-direction: column; gap: 0; margin-top: 16px; }
 
