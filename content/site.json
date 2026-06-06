@@ -1,4 +1,3 @@
-```json
 {
   "meta": {
     "title": "Sanctuary Infrastructure - C2 Care Property Platform | Children's Home Leasing",
@@ -13,7 +12,7 @@
     "cta_text": "Request Asset Pack",
     "cta_href": "#contact",
     "links": [
-      { "label": "Available Assets", "href": "#assets" },
+      { "label": "Available Assets",  "href": "#assets" },
       { "label": "How It Works",      "href": "#how" },
       { "label": "The Economics",     "href": "#economics" },
       { "label": "Operator Criteria", "href": "#operators" },
@@ -85,8 +84,8 @@
       {
         "status": "✓ LDC Confirmed",
         "status_class": "status-confirmed",
-        "name": "19 Bampton Close",
-        "location": "Furzton, Milton Keynes MK4",
+        "name": "Furzton, Milton Keynes",
+        "location": "Milton Keynes MK4",
         "metrics": [
           { "key": "Property",      "val": "3-bed detached" },
           { "key": "Permitted use", "val": "C2 - up to 2 children" },
@@ -101,8 +100,8 @@
       {
         "status": "✓ LDC Confirmed",
         "status_class": "status-confirmed",
-        "name": "25 Cleveland Road",
-        "location": "New Malden, Kingston KT3",
+        "name": "New Malden, KT3",
+        "location": "Kingston upon Thames, London",
         "metrics": [
           { "key": "Property",      "val": "3-bed detached" },
           { "key": "Permitted use", "val": "C2 - up to 2 children" },
@@ -120,12 +119,12 @@
         "name": "Pipeline - Teesside",
         "location": "Stockton · Skelton · Guisborough",
         "metrics": [
-          { "key": "Properties",       "val": "4 x 3-4 bed detached" },
-          { "key": "Status",           "val": "Planning Inspectorate appeal" },
-          { "key": "Est. consent",     "val": "Late 2026 / Q1 2027" },
-          { "key": "Target lease",     "val": "£3,500-£4,500/mo", "highlight": true },
-          { "key": "Area",             "val": "Active LA commissioning" },
-          { "key": "Register interest","val": "Conditional terms available" }
+          { "key": "Properties",        "val": "4 x 3-4 bed detached" },
+          { "key": "Status",            "val": "Planning Inspectorate appeal" },
+          { "key": "Est. consent",      "val": "Late 2026 / Q1 2027" },
+          { "key": "Target lease",      "val": "£3,500-£4,500/mo", "highlight": true },
+          { "key": "Area",              "val": "Active LA commissioning" },
+          { "key": "Register interest", "val": "Conditional terms available" }
         ],
         "action_text": "Register interest",
         "action_href": "#contact"
@@ -156,4 +155,3 @@
     ]
   }
 }
-```
