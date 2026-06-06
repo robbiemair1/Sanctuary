@@ -65,9 +65,9 @@
   </div>
 </section>
 
-<!-- PROCESS FLOW DIAGRAM -->
-<section class="flow-diagram" id="flow">
-  <div class="flow-inner">
+<!-- HOW IT WORKS — includes flow diagram and 5-step process -->
+<section class="how-it-works" id="how">
+  <div class="flow-diagram-inner">
     <div class="flow-header">
       <div class="flow-heading">How the Sanctuary Infrastructure model works</div>
       <div class="flow-subheading">We create the home. Experienced operators deliver the care.</div>
@@ -100,10 +100,6 @@
     </div>
     <p class="flow-caption">Sanctuary Infrastructure exists to remove the property, planning and development burden so experienced operators can focus on what they do best: delivering outstanding care.</p>
   </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<section class="how-it-works" id="how">
   <div class="how-grid">
     <div>
       <div class="section-eyebrow reveal">{{ site.how.eyebrow }}</div>
@@ -415,10 +411,6 @@
     </div>
     <div class="founder-credentials">
       <div class="credential reveal">
-        <div class="credential-title">Background</div>
-        <div class="credential-value">25+ years · £100m+ profitability · 120 companies · 63 M&amp;A transactions</div>
-      </div>
-      <div class="credential reveal">
         <div class="credential-title">Portfolio</div>
         <div class="credential-value">15 properties across England</div>
       </div>
@@ -427,12 +419,15 @@
         <div class="credential-value">Samaritans · Crisis (7 years, 1,000+ guests) · Journeyman UK Chairman · Co Mixed Group founder</div>
       </div>
       <div class="credential reveal">
-        <div class="credential-title">Clinical guidance</div>
-        <div class="credential-value">Sylvia Duncan — Chair, IRCT · Qualified 1972 · Published researcher in child trauma</div>
-      </div>
-      <div class="credential reveal">
         <div class="credential-title">Planning expertise</div>
         <div class="credential-value">2 LDCs confirmed · 4 appeals pending · 3 LDC applications pending</div>
+      </div>
+      <div class="credential credential--links reveal">
+        <div class="credential-title">Wider context</div>
+        <div class="credential-value">
+          <a href="https://www.robbiemair.com/#story" target="_blank" rel="noopener" class="eco-link">Full story — robbiemair.com &#8594;</a>
+          <a href="https://www.robbiemair.com/sanctuary-homes" target="_blank" rel="noopener" class="eco-link">Sanctuary Homes &#8594;</a>
+        </div>
       </div>
     </div>
   </div>
@@ -520,6 +515,10 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-brand">{{ site.footer.brand_main }} <span>{{ site.footer.brand_accent }}</span></div>
+  <div class="footer-eco">
+    <a href="https://www.robbiemair.com" target="_blank" rel="noopener" class="footer-eco-link">robbiemair.com</a>
+    <a href="https://www.robbiemair.com/sanctuary-homes" target="_blank" rel="noopener" class="footer-eco-link">Sanctuary Homes</a>
+  </div>
   <div class="footer-legal">
     {% for line in site.footer.legal_lines %}
     {{ line }}{% if not loop.last %}<br>{% endif %}
