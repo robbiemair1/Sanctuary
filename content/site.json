@@ -12,17 +12,35 @@
     "cta_text": "Request Asset Pack",
     "cta_href": "#contact",
     "links": [
-      { "label": "Available Assets",  "href": "#assets" },
-      { "label": "How It Works",      "href": "#how" },
-      { "label": "The Economics",     "href": "#economics" },
-      { "label": "Operator Criteria", "href": "#operators" },
-      { "label": "About",             "href": "#founder" },
-      { "label": "Contact",           "href": "#contact" }
+      {
+        "label": "How It Works",
+        "href": "#how"
+      },
+      {
+        "label": "Available Assets",
+        "href": "#assets"
+      },
+      {
+        "label": "The Economics",
+        "href": "#economics"
+      },
+      {
+        "label": "Operator Criteria",
+        "href": "#operators"
+      },
+      {
+        "label": "About",
+        "href": "#founder"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "hero": {
     "eyebrow": "Care Infrastructure Platform",
-    "headline_top": "We create<br>the asset.",
+    "headline_top": "We create<br>the home.",
     "headline_emphasis": "You deliver<br>the care.",
     "tagline": "Sanctuary provides consented, Ofsted-ready Class C2 properties to established children's home operators across England. No planning risk. No operational involvement. Long-term partnership.",
     "model_line": "The right property, in the right place, ready to operate.",
@@ -33,10 +51,22 @@
     "quote": "Consented C2 stock is the scarcest resource in children's residential care. We remove that constraint.",
     "quote_cite": "Robbie Mair - Founder, Sanctuary Infrastructure",
     "stats": [
-      { "value": "9",   "label": "C2 properties in pipeline" },
-      { "value": "2",   "label": "LDCs confirmed & ready" },
-      { "value": "£0",  "label": "Planning risk to operator" },
-      { "value": "C2",  "label": "Consented & Ofsted-application ready" }
+      {
+        "value": "9",
+        "label": "C2 properties in pipeline"
+      },
+      {
+        "value": "2",
+        "label": "LDCs confirmed & ready"
+      },
+      {
+        "value": "£0",
+        "label": "Planning risk to operator"
+      },
+      {
+        "value": "C2",
+        "label": "Consented & Ofsted-application ready"
+      }
     ]
   },
   "how": {
@@ -87,12 +117,31 @@
         "name": "Furzton, Milton Keynes",
         "location": "Milton Keynes MK4",
         "metrics": [
-          { "key": "Property",      "val": "3-bed detached" },
-          { "key": "Permitted use", "val": "C2 - up to 2 children" },
-          { "key": "Staffing",      "val": "Up to 3 inc. RM" },
-          { "key": "Target lease",  "val": "£5,000-£6,000/mo", "highlight": true },
-          { "key": "Availability",  "val": "Q3 2026 - fully refurbished" },
-          { "key": "Commissioning", "val": "Strong MK LA demand" }
+          {
+            "key": "Property",
+            "val": "3-bed detached"
+          },
+          {
+            "key": "Permitted use",
+            "val": "C2 - up to 2 children"
+          },
+          {
+            "key": "Staffing",
+            "val": "Up to 3 inc. RM"
+          },
+          {
+            "key": "Target lease",
+            "val": "£5,000-£6,000/mo",
+            "highlight": true
+          },
+          {
+            "key": "Availability",
+            "val": "Q3 2026 - fully refurbished"
+          },
+          {
+            "key": "Commissioning",
+            "val": "Strong MK LA demand"
+          }
         ],
         "action_text": "Request asset pack",
         "action_href": "#contact"
@@ -103,12 +152,31 @@
         "name": "New Malden, KT3",
         "location": "Kingston upon Thames, London",
         "metrics": [
-          { "key": "Property",      "val": "3-bed detached" },
-          { "key": "Permitted use", "val": "C2 - up to 2 children" },
-          { "key": "Est. value",    "val": "£1,000,000" },
-          { "key": "Target lease",  "val": "£4,500-£6,000/mo", "highlight": true },
-          { "key": "Availability",  "val": "Q1 2027 - vacant possession" },
-          { "key": "Area",          "val": "Premium SW London" }
+          {
+            "key": "Property",
+            "val": "3-bed detached"
+          },
+          {
+            "key": "Permitted use",
+            "val": "C2 - up to 2 children"
+          },
+          {
+            "key": "Est. value",
+            "val": "£1,000,000"
+          },
+          {
+            "key": "Target lease",
+            "val": "£4,500-£6,000/mo",
+            "highlight": true
+          },
+          {
+            "key": "Availability",
+            "val": "Q1 2027 - vacant possession"
+          },
+          {
+            "key": "Area",
+            "val": "Premium SW London"
+          }
         ],
         "action_text": "Request asset pack",
         "action_href": "#contact"
@@ -119,12 +187,31 @@
         "name": "Pipeline - Teesside",
         "location": "Stockton · Skelton · Guisborough",
         "metrics": [
-          { "key": "Properties",        "val": "4 x 3-4 bed detached" },
-          { "key": "Status",            "val": "Planning Inspectorate appeal" },
-          { "key": "Est. consent",      "val": "Late 2026 / Q1 2027" },
-          { "key": "Target lease",      "val": "£3,500-£4,500/mo", "highlight": true },
-          { "key": "Area",              "val": "Active LA commissioning" },
-          { "key": "Register interest", "val": "Conditional terms available" }
+          {
+            "key": "Properties",
+            "val": "4 x 3-4 bed detached"
+          },
+          {
+            "key": "Status",
+            "val": "Planning Inspectorate appeal"
+          },
+          {
+            "key": "Est. consent",
+            "val": "Late 2026 / Q1 2027"
+          },
+          {
+            "key": "Target lease",
+            "val": "£3,500-£4,500/mo",
+            "highlight": true
+          },
+          {
+            "key": "Area",
+            "val": "Active LA commissioning"
+          },
+          {
+            "key": "Register interest",
+            "val": "Conditional terms available"
+          }
         ],
         "action_text": "Register interest",
         "action_href": "#contact"
