@@ -271,17 +271,19 @@ nav.scrolled { border-bottom-color: var(--rule); }
 }
 
 /* ═══════════════════════════════════════
-   PROCESS FLOW DIAGRAM
+   HOW IT WORKS — includes flow diagram
 ═══════════════════════════════════════ */
-.flow-diagram {
-  background: var(--ink);
-  padding: 56px 80px;
-  border-top: 1px solid rgba(255,255,255,0.06);
+.how-it-works {
+  background: var(--cream);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 0;
 }
 
-.flow-inner {
-  max-width: 960px;
-  margin: 0 auto;
+.flow-diagram-inner {
+  background: var(--ink);
+  padding: 56px 80px 48px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
 .flow-header {
@@ -360,6 +362,38 @@ nav.scrolled { border-bottom-color: var(--rule); }
   margin: 0 auto;
 }
 
+.how-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: start;
+  padding: 120px 80px;
+}
+
+.how-steps { display: flex; flex-direction: column; gap: 0; margin-top: 16px; }
+
+.how-step {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 24px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.how-step:first-child { border-top: 1px solid var(--rule); }
+
+.step-num {
+  font-family: var(--serif);
+  font-size: 42px;
+  font-weight: 300;
+  color: var(--rule);
+  line-height: 1;
+  margin-top: -4px;
+}
+
+.step-title { font-weight: 500; font-size: 15px; color: var(--ink); margin-bottom: 8px; letter-spacing: 0.02em; }
+.step-desc { font-size: 14px; font-weight: 300; color: var(--ink-mid); line-height: 1.6; }
+
 /* ═══════════════════════════════════════
    IMAGE PLACEHOLDERS
    Hidden by default — activate with real
@@ -421,45 +455,6 @@ section { padding: 120px 80px; }
   max-width: 600px;
 }
 
-/* ═══════════════════════════════════════
-   HOW IT WORKS
-═══════════════════════════════════════ */
-.how-it-works {
-  background: var(--cream);
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-}
-
-.how-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 80px;
-  align-items: start;
-}
-
-.how-steps { display: flex; flex-direction: column; gap: 0; margin-top: 16px; }
-
-.how-step {
-  display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 24px;
-  padding: 32px 0;
-  border-bottom: 1px solid var(--rule);
-}
-
-.how-step:first-child { border-top: 1px solid var(--rule); }
-
-.step-num {
-  font-family: var(--serif);
-  font-size: 42px;
-  font-weight: 300;
-  color: var(--rule);
-  line-height: 1;
-  margin-top: -4px;
-}
-
-.step-title { font-weight: 500; font-size: 15px; color: var(--ink); margin-bottom: 8px; letter-spacing: 0.02em; }
-.step-desc { font-size: 14px; font-weight: 300; color: var(--ink-mid); line-height: 1.6; }
 
 /* ═══════════════════════════════════════
    ASSETS
@@ -782,11 +777,61 @@ section { padding: 120px 80px; }
 .contact-value a:hover { border-bottom-color: var(--accent); }
 
 /* ═══════════════════════════════════════
-   FOOTER
+   ECOSYSTEM LINKS
 ═══════════════════════════════════════ */
-footer { background: var(--ink); color: rgba(255,255,255,0.4); padding: 48px 80px; display: flex; justify-content: space-between; align-items: center; }
+.credential--links .credential-value {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eco-link {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  transition: border-color 0.2s;
+  display: inline-block;
+}
+
+.eco-link:hover { border-bottom-color: var(--accent); }
+
+/* ═══════════════════════════════════════
+   FOOTER — with ecosystem links
+═══════════════════════════════════════ */
+footer {
+  background: var(--ink);
+  color: rgba(255,255,255,0.4);
+  padding: 48px 80px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 40px;
+}
+
 .footer-brand { font-family: var(--serif); font-size: 20px; font-weight: 400; color: rgba(255,255,255,0.8); }
 .footer-brand span { color: rgba(255,255,255,0.3); }
+
+.footer-eco {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.footer-eco-link {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-eco-link:hover { color: rgba(255,255,255,0.7); }
 .footer-legal { font-size: 11px; line-height: 1.6; text-align: right; }
 
 /* ═══════════════════════════════════════
@@ -808,10 +853,12 @@ footer { background: var(--ink); color: rgba(255,255,255,0.4); padding: 48px 80p
   nav { padding: 20px 24px; }
   .nav-links { display: none; }
   section { padding: 80px 24px; }
-  .flow-diagram { padding: 36px 24px; }
+  .flow-diagram-inner { padding: 36px 24px; }
+  .how-grid { padding: 80px 24px; }
   .hero-left { padding: 60px 24px; }
   .hero-right { padding: 40px 24px; }
-  footer { padding: 40px 24px; flex-direction: column; gap: 16px; text-align: center; }
+  footer { grid-template-columns: 1fr; gap: 16px; text-align: center; padding: 40px 24px; }
+  .footer-eco { justify-content: center; }
   .footer-legal { text-align: center; }
 }
 
