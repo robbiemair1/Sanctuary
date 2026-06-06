@@ -278,6 +278,7 @@ nav.scrolled { border-bottom-color: var(--rule); }
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
   padding: 0;
+  scroll-margin-top: 80px;
 }
 
 .flow-diagram-inner {
@@ -425,7 +426,7 @@ nav.scrolled { border-bottom-color: var(--rule); }
 /* ═══════════════════════════════════════
    SECTION COMMONS
 ═══════════════════════════════════════ */
-section { padding: 120px 80px; }
+section { padding: 120px 80px; scroll-margin-top: 80px; }
 
 .section-eyebrow {
   font-size: 11px;
@@ -785,20 +786,6 @@ section { padding: 120px 80px; }
   gap: 12px;
 }
 
-.eco-link-group {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.eco-link-desc {
-  font-size: 13px;
-  color: var(--ink-light);
-  font-family: var(--sans);
-  font-weight: 300;
-  line-height: 1.4;
-}
-
 .eco-link {
   font-family: var(--sans);
   font-size: 14px;
@@ -812,6 +799,33 @@ section { padding: 120px 80px; }
 }
 
 .eco-link:hover { border-bottom-color: var(--accent); }
+
+.eco-related-card {
+  border: 1px solid var(--rule);
+  padding: 16px 20px;
+  background: var(--cream);
+}
+
+.eco-related-link {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  transition: opacity 0.2s;
+}
+
+.eco-related-link:hover { opacity: 0.75; }
+
+.eco-related-desc {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--ink-light);
+  line-height: 1.4;
+  margin: 0;
+}
 
 /* ═══════════════════════════════════════
    FOOTER — with ecosystem links
