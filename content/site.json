@@ -1,546 +1,288 @@
 {
   "meta": {
-    "title": "Sanctuary Homes — Robbie Mair",
-    "description": "Sanctuary Homes — a small number of carefully developed, highly tailored therapeutic homes for children and young people. A formation model designed to help children move from survival to thriving."
-  },
-  "intro": {
-    "eyebrow": "Sanctuary Homes",
-    "heading_1": "Sanctuary",
-    "heading_2": "Homes",
-    "subheading": "A small, therapeutically led home for children and young people with complex needs.",
-    "body": "Not just a placement. A home built around a belief — about who they are, what they have been through, and what they are capable of.",
-    "body_2": "A home that holds the child, not just the placement."
-  },
-  "why": {
-    "eyebrow": "Why Sanctuary Homes",
-    "title_1": "Why",
-    "title_2": "Sanctuary Homes.",
-    "opening": [
-      "Sanctuary was built on a belief: that every child deserves the conditions for a full life — and that those conditions can be deliberately created.",
-      "Not simply safety. Not simply stability. A life with identity, values, belonging, purpose and people who hold a young person through it — during the placement and long after.",
-      "That belief shapes how Sanctuary homes are designed, staffed, led and sustained.",
-      "Sanctuary Homes is where that belief becomes practice."
-    ],
-    "opening_emphasis": "The goal is not just a safe placement. The goal is a thriving life.",
-    "belief": {
-      "label": "The belief",
-      "paras": [
-        "Sanctuary believes children thrive through five things: relationships, environment, structure, opportunity and belonging.",
-        "Not one of these in isolation. All five, held together, consistently, over time.",
-        "That belief shapes every decision about how a Sanctuary home is designed, led, staffed and operated."
-      ]
-    },
-    "founder": {
-      "label": "The founder's reason",
-      "paras": [
-        "The person who created Sanctuary Homes was once a child who needed exactly this.",
-        "At seventeen, Robbie Mair was homeless — taken in by an elderly couple who gave him stability, safety and the experience of being believed in. Everything that followed — thirty years of charitable work, a career in business and property, and two decades building the skills that eventually converged into Sanctuary — was shaped by that moment. Sanctuary Homes is not an investment proposition. It is a response to lived experience."
-      ],
-      "link_text": "Read Robbie's full story →",
-      "link_url": "/#story"
-    },
-    "provides": {
-      "label": "What Sanctuary provides",
-      "paras": [
-        "Most children's homes provide care during the placement. Sanctuary is designed to provide that — and the things a family would normally give a child over years of growing up that the care system does not: identity, values, advocacy, purpose, financial literacy, community, rites of passage, and a relationship that does not end when the placement does.",
-        "This is what the model means by formation. Not just holding a child safely through a difficult period. Building the person they are becoming."
-      ]
-    },
-    "journey": {
-      "label": "The model's journey",
-      "lead": "The wider Sanctuary vision is designed around five stages — from intensive therapeutic care through to lifelong mentoring. The Milton Keynes home is Sanctuary's first direct-delivery home, currently being developed.",
-      "stages": [
-        {
-          "num": "1",
-          "name": "Sanctuary Intensive Home",
-          "desc": "Therapeutic care for children with the most complex needs. Priority: safety, stabilisation, rebuilding trust."
-        },
-        {
-          "num": "2",
-          "name": "Sanctuary Group Living",
-          "desc": "A therapeutic home for children ready to engage with shared living and peer relationships."
-        },
-        {
-          "num": "3",
-          "name": "Sanctuary Semi-Independent Living",
-          "desc": "Preparing a young person for the transition to independence, supported by the Pathway to Independence programme."
-        },
-        {
-          "num": "4",
-          "name": "Sanctuary Care to Career",
-          "desc": "Supporting young people to explore employment, self-employment, enterprise, vocation and meaningful contribution — including, in time and where appropriate, potential opportunities within Sanctuary for those who want to use their lived experience to support others."
-        },
-        {
-          "num": "5",
-          "name": "Sanctuary Mentoring for Life",
-          "desc": "Lifelong mentoring and community connection through every significant life transition — for as long as it is needed."
-        }
-      ],
-      "child_line": "For the child or young person, this means: a safe home, familiar trusted adults consistently present over time, practical preparation for the life ahead, an advocate for their education and needs — and relationships that continue long after the placement ends.",
-      "closing": "The home is the beginning. The wider vision is designed so that the journey continues.",
-      "golden_thread": "The golden thread running through every stage is purpose — helping a young person discover who they are, what they love, what they are good at, and what kind of life is worth moving towards."
-    },
-    "different": {
-      "label": "What makes it different",
-      "cards": [
-        {
-          "title": "A small family setting",
-          "body": "Sanctuary Homes operates as a solo provision or two-child home. This is deliberate. A small family setting means a higher ratio of experienced adults to young people. It means consistency — a small, consistent group of trusted adults, reliably present. It means a home that can be genuinely responsive to the individual rather than to the operational demands of a larger setting."
-        },
-        {
-          "title": "Led by experience",
-          "body": "Each home is supported by a leadership structure that spans governance, registration, therapeutic oversight and day-to-day operational management. The strength of the model lies in the collective experience of the people holding it — not in any single appointment."
-        },
-        {
-          "title": "Built around a framework",
-          "body": "The Pathway to Independence — twenty-three workshops developed from thirty years of lived experience and charitable work — will be embedded in each Sanctuary home. It is the practical, structured programme that gives every young person the skills, the self-knowledge and the foundation they need to build a life.",
-          "link_text": "Read the full programme →",
-          "link_url": "/#pathway"
-        },
-        {
-          "title": "Built for what comes after",
-          "body": "A placement ends. A life continues. Sanctuary is designed with that knowledge built in from the start. The model includes structured pathways from care into employment, access to peer and community networks, and lifelong mentoring through every key transition. These are not supplementary services offered elsewhere. They are the model's answer to the question that matters most: what happens next?"
-        }
-      ],
-      "closing": "We are building the Milton Keynes home carefully, with the intention that every future Sanctuary home is shaped by what is learned there."
-    }
-  },
-  "miltonKeynes": {
-    "eyebrow": "The Milton Keynes Home",
-    "title_1": "Our first home.",
-    "title_2": "Milton Keynes.",
-    "opening": [
-      "Sanctuary's first direct-delivery home is in Milton Keynes — a three-bedroom detached property with confirmed Class C2 planning consent for use as a children's home.",
-      "The home is currently being developed and is subject to Ofsted registration."
-    ],
-    "why": {
-      "label": "Why Milton Keynes?",
-      "intro": "Four factors converged on Milton Keynes.",
-      "factors": [
-        "The property is existing — owned by Sanctuary's founder as part of a long-held investment portfolio, and therefore available without acquisition risk or delay.",
-        "Planning consent is confirmed. A Lawful Development Certificate for Class C2 use has already been granted — removing the twelve to eighteen months of planning uncertainty that typically precedes a new home."
-      ],
-      "operational_lead": "The proposed operational lead lives five minutes from the property. She is currently Deputy Manager in a four-bed therapeutic children's home, with direct experience of therapeutic residential practice, staff development, training and day-to-day home operations."
-    },
-    "sufficiency": {
-      "label": "Local Need",
-      "paras": [
-        "In 2022, Milton Keynes City Council's Sufficiency Strategy identified insufficient local residential provision and set out plans to develop new, smaller children's homes within the city. That gap has not been closed.",
-        "By December 2025, the Council's updated Sufficiency Strategy for 2026–2031 shows the position has worsened significantly. There are now 482 children in the care of Milton Keynes City Council — a 33% increase from 361 in 2022. The proportion placed outside the city has grown from 30% to nearly half. The new strategy explicitly names insufficient local residential provision and a lack of partnership with not-for-profit providers as current challenges, and identifies increasing local residential sufficiency as a priority.",
-        "Sanctuary's first home is designed to address that identified and deteriorating gap: a small, locally rooted, therapeutically led home for children and young people who need quality provision close to their community."
-      ],
-      "stats": [
-        {
-          "figure": "482",
-          "label": "children in care in Milton Keynes"
-        },
-        {
-          "figure": "49%",
-          "label": "placed outside Milton Keynes"
-        },
-        {
-          "figure": "33%",
-          "label": "increase since 2022"
-        },
-        {
-          "figure": "Gap",
-          "label": "local residential provision shortage identified"
-        }
-      ],
-      "source_toggle": "Source detail"
-    },
-    "home": {
-      "label": "The home",
-      "facts": [
-        {
-          "k": "Property",
-          "v": "Three-bedroom detached home in a residential area of Milton Keynes."
-        },
-        {
-          "k": "Planning consent",
-          "v": "Class C2 confirmed via Lawful Development Certificate."
-        },
-        {
-          "k": "Capacity",
-          "v": "Solo provision or two-child setting."
-        },
-        {
-          "k": "Ages",
-          "v": "7 to 18."
-        },
-        {
-          "k": "Staffing and governance",
-          "v": "A high ratio of experienced adults to children, supported by Responsible Individual oversight, senior residential care leadership and local operational leadership. Formal appointments are in development and subject to Ofsted registration."
-        }
-      ]
-    },
-    "whoFor": {
-      "label": "Who it is for",
-      "paras": [
-        "The Milton Keynes home is designed for children and young people aged 7 to 18 with complex emotional, behavioural or developmental needs — who need a stable, therapeutic environment and the consistent presence of experienced, well-supported adults.",
-        "Children who have experienced instability, disruption or trauma. Who need a home that can hold them — safely, therapeutically, and for long enough to make a difference.",
-        "The Pathway to Independence programme spans the full 7 to 18 age range and will be embedded from the beginning."
-      ]
-    },
-    "approach": {
-      "label": "The approach",
-      "paras": [
-        "This is a small home. One or two children, experienced adults, a therapeutic framework and a team that is present.",
-        "The priority is not throughput. It is outcome.",
-        "We are not building quickly. We are building carefully — and the Milton Keynes home is the model for everything that follows."
-      ]
-    },
-    "devStatus": "The Milton Keynes home is currently in development. Ofsted registration has not yet been granted. Leadership appointments are in progress. We will be transparent with prospective commissioners about exactly where the home is in its development at the time of any enquiry.",
-    "glance": {
-      "label": "Milton Keynes at a glance",
-      "rows": [
-        {
-          "k": "Status",
-          "v": "In development"
-        },
-        {
-          "k": "Planning",
-          "v": "C2 confirmed"
-        },
-        {
-          "k": "Capacity",
-          "v": "Solo or two-child setting"
-        },
-        {
-          "k": "Ages",
-          "v": "7-18"
-        },
-        {
-          "k": "Registration",
-          "v": "Subject to Ofsted"
-        },
-        {
-          "k": "Model",
-          "v": "Therapeutic, high-support, formation-led"
-        },
-        {
-          "k": "Enquiries",
-          "v": "Robbie Mair"
-        }
-      ]
-    },
-    "image_placeholder": "Milton Keynes exterior image"
-  },
-  "leadership": {
-    "eyebrow": "Leadership, Governance & Quality",
-    "title_1": "An experienced team.",
-    "title_2": "Three layers of accountability.",
-    "opening": [
-      "Most children's homes rest primarily on the Registered Manager. The quality of the home rises and falls with a single appointment.",
-      "Sanctuary Homes is structured differently.",
-      "The governance, registration expertise, strategic care leadership and day-to-day operational management are held by different people — each with independent accountability, each providing oversight of the others. It is a structure designed so that no single absence, however regrettable, compromises the quality of care.",
-      "Three layers. Each substantive. Each experienced. Each being carefully structured before registration.",
-      "The profiles below reflect the credentials of the individuals involved. Formal Sanctuary appointments are in development. The experience is genuine and verifiable."
-    ],
-    "profiles": [
-      {
-        "role": "The Founder",
-        "name": "Robbie Mair — Founder",
-        "paras": [
-          "The origin of Sanctuary Homes is Robbie's own story — homeless at seventeen, taken in by an elderly couple, and shaped by that experience into someone who has spent thirty years building the skills to create a home like the one that saved him.",
-          "Twenty years as a management consultant. Twenty years of property investment and management. Thirty years of charitable work with the Samaritans, Crisis, Journeyman UK and the support group he founded. Three black belts in jujitsu — a discipline he credits with building the emotional regulation, self-mastery and grounded resilience central to his own recovery.",
-          "The Pathway to Independence — the twenty-three workshop programme to be embedded in each Sanctuary home — is the documented account of how he rebuilt his own life from nothing."
-        ],
-        "link_text": "Read the full story →",
-        "link_url": "/#story",
-        "status": null,
-        "summary": "From homelessness at seventeen to building the skills, resources and purpose behind Sanctuary.",
-        "toggle_open": "View profile",
-        "toggle_close": "Hide profile"
-      },
-      {
-        "role": "Residential Care Leadership",
-        "headline": "Over 35 years in children's residential social care.",
-        "paras": [
-          "This individual has over 35 years of experience in children's residential social care, including senior local authority leadership, Responsible Individual accountability across multiple registered services, multi-site operational leadership, and a track record of improving homes from Inadequate to Good and Outstanding."
-        ],
-        "quals": "Registered Social Worker (Social Work England). BA Hons Social Work. Level 5 Registered Managers Award.",
-        "status": "Sanctuary is in discussion with this individual about an appropriate senior residential care and/or independent quality assurance role. Any formal role will be structured to preserve independence and avoid conflict with day-to-day operational management.",
-        "summary": "Over 35 years in children's residential care, including senior leadership and improving services from Inadequate to Good and Outstanding.",
-        "toggle_open": "View profile",
-        "toggle_close": "Hide profile"
-      },
-      {
-        "role": "Independent Governance — Responsible Individual",
-        "headline": "15 years in children's social care leadership.",
-        "paras": [
-          "This individual is currently working in a senior local authority role, with recent Responsible Individual experience for a registered children's home — including direct experience of new home setup, registration and operation.",
-          "Career background spans corporate parenting, safeguarding, fostering, kinship care, placement sufficiency and children-in-care services, across multiple local authorities at senior and interim management level. Strategic leadership responsibilities have included oversight of services covering 650+ special guardians, 160+ foster carers and 161 children. Agency Decision Maker. CDOP lead.",
-          "This individual understands commissioning from both sides — as a former local authority commissioner and through recent registered-provider experience."
-        ],
-        "quals": "Registered Social Worker (Social Work England). BA (Hons) Social Work, First Class Honours. Currently completing Level 5 Diploma in Leadership and Management for Residential Childcare and specialist Responsible Individual training.",
-        "status": "This individual's RI involvement with Sanctuary Homes is in development.",
-        "summary": "15 years in children's social care leadership. Understands commissioning from both sides.",
-        "toggle_open": "View profile",
-        "toggle_close": "Hide profile"
-      },
-      {
-        "role": "Operational Leadership",
-        "headline": "Deputy Manager — therapeutic residential care, Milton Keynes area.",
-        "paras": [
-          "The proposed day-to-day operational lead is a residential care professional currently working as Deputy Manager in a four-bed therapeutic children's home in the area — covering the Home Manager role, and managing safeguarding notifications, staff supervision and induction, rota management, multi-agency liaison and professional meetings.",
-          "Prior career includes over a decade working with children with complex needs in specialist educational settings, including children with SEN, speech and language difficulties, and challenging behaviour.",
-          "Completed Level 5 Diploma in Leadership and Management for Residential Childcare with Distinction. Local to the Milton Keynes area."
-        ],
-        "status": "This individual is on a structured pathway to Registered Manager — subject to formal appointment and Ofsted registration.",
-        "summary": "Local Deputy Manager in a four-bed therapeutic home, with direct operational experience.",
-        "toggle_open": "View profile",
-        "toggle_close": "Hide profile"
-      }
-    ],
-    "governance": {
-      "label": "The governance structure",
-      "points": [
-        "A Responsible Individual with independent oversight of the home, separate from day-to-day management.",
-        "Additional senior residential care and quality assurance expertise being developed around the home, with formal roles to be confirmed before registration.",
-        "The Founder holds the mission, resources and strategic accountability for the home, while day-to-day care, safeguarding and regulatory oversight sit with experienced residential care professionals.",
-        "Governance, quality assurance and safeguarding frameworks established before registration — not retrofitted after."
-      ]
-    }
-  },
-  "therapeutic": {
-    "eyebrow": "Therapeutic Approach",
-    "title_1": "Relationships, environment, structure,",
-    "title_2": "opportunity and belonging.",
-    "opening": [
-      "This is not a clinical statement. It is a design principle.",
-      "It shapes how the home is staffed, how adults are trained, how the physical environment is designed, and how every interaction with a young person is approached.",
-      "It comes from lived experience — Robbie's own — and from the professional conviction of the practitioners who lead and support our homes."
-    ],
-    "pillars": [
-      {
-        "name": "Relationships",
-        "paras": [
-          "The most powerful therapeutic resource a traumatised child has is the adults in their daily care — properly trained, properly supported, and consistently present.",
-          "Not an appointment once a week. Not a session in a clinical room. The adults who make breakfast, who sit through the difficult moments, who are there when the armour comes down.",
-          "Sanctuary homes will be staffed to make that possible: a small number of young people, a high ratio of experienced adults, and a culture of relational practice running through everything."
-        ],
-        "open_default": false
-      },
-      {
-        "name": "Environment",
-        "paras": [
-          "The physical environment of a home is not neutral. It either supports therapeutic practice or it undermines it.",
-          "Sanctuary homes are designed as homes — not units, not facilities. Residential streets. Family-sized properties. Spaces that feel safe, consistent and human.",
-          "Every design decision is made with the young person in mind."
-        ],
-        "open_default": false
-      },
-      {
-        "name": "Structure",
-        "paras": [
-          "Children who have experienced trauma often experience structure as threat. The work of a therapeutic home is to rebuild the association — to make structure feel like safety rather than control.",
-          "Predictability. Consistency. Clear expectations, held warmly. Routines that give a day shape and a young person a foothold.",
-          "Structure should not feel like control. It should create enough safety, encouragement and predictability for a young person to re-engage with life, learning and community at their own pace.",
-          "This is not easy. It requires adults who understand what they are doing and why."
-        ],
-        "open_default": false
-      },
-      {
-        "name": "Opportunity",
-        "paras": [
-          "The Pathway to Independence is a structured programme spanning ages 7 to 18 — twenty-three workshops that build cumulatively across the full arc of a young person's development.",
-          "The earlier workshops address identity, purpose, self-worth, emotional regulation and the foundations of trust — what every child needs and what many in care have never been given. The later workshops build towards financial literacy, employment, practical life skills and the transition into independent adulthood — helping each young person explore who they are, what they care about, what they are good at, and how they might contribute.",
-          "For a child arriving at the Milton Keynes home at any age, the programme meets them where they are. But it also goes back to what may have been missed — the sense of self, the relational foundation, the belief in their own capability that most young people absorb from their families over years, and that many children in care receive from no one.",
-          "The programme is guided by a specific set of values: integrity, accountability, reliability, credibility, vulnerability, boldness and compassion. These are not generic aspirations — they are the character qualities the programme is designed to build, running through every workshop as a consistent thread.",
-          "Workshop leaders are selected not only for professional expertise but for their own lived experience of hardship — the understanding that comes from having faced, and rebuilt from, similar challenges.",
-          "The Pathway to Independence programme is supported by the Sanctuary Credits system — an internal recognition currency through which young people earn credits for effort, engagement and achievement across school, workshops and daily home life. Credits can translate into approved pocket money, savings or agreed purchases, helping young people experience the real-world link between effort, responsibility, earned reward, budgeting and delayed gratification.",
-          "The programme was not designed at a desk. It is the documented account of how Robbie Mair rebuilt his own life from nothing — after homelessness at seventeen, with no support and no blueprint. It is given to every young person so they never have to learn it that way."
-        ],
-        "link_text": "Read the full programme →",
-        "link_url": "/#pathway",
-        "open_default": true
-      },
-      {
-        "name": "Belonging",
-        "paras": [
-          "Leaving care should not mean leaving behind the people who matter.",
-          "Sanctuary is designed to provide what a family would provide — not just for the years of the placement but through every significant transition that follows: leaving care, finding employment, forming relationships, becoming a parent, and the life stages beyond.",
-          "This is what Sanctuary means by belonging. Not being safe in a home for a defined period. Being part of something that holds you — and that continues to hold you long after the placement ends."
-        ],
-        "movements_intro": "Robbie's thinking and practice have been shaped by national mentoring and rites-of-passage movements — including",
-        "movements": [
-          {
-            "name": "Journeyman UK",
-            "url": "https://journeymanuk.org",
-            "note": ", where he served as Chairman and Trustee"
-          },
-          {
-            "name": "Rites for Girls",
-            "url": "https://ritesforgirls.com",
-            "note": ""
-          },
-          {
-            "name": "A Band of Brothers",
-            "url": "https://abandofbrothers.org.uk",
-            "note": ""
-          },
-          {
-            "name": "The ManKind Project UK & Ireland",
-            "url": "https://mankindprojectuki.org",
-            "note": ""
-          },
-          {
-            "name": "Woman Within International",
-            "url": "https://womanwithin.org",
-            "note": ""
-          }
-        ],
-        "movements_outro": "These movements exist to provide young people with community, peer networks and structured rites of passage that mark life transitions and build lasting belonging.",
-        "paras_after": [
-          "Robbie is connected to communities of adults and mentors who have themselves walked through adversity, recovery and deep personal development, and who can model what growth, responsibility and contribution look like in practice.",
-          "They reflect a conviction at the heart of the Sanctuary model: belonging cannot be provided solely within four walls. It requires a wider world of people who know the young person, who mark their transitions, and who remain present when the placement is no longer the centre of their life.",
-          "No young person who has been part of Sanctuary should feel forgotten. That is not a pastoral aspiration. It is a design commitment."
-        ],
-        "open_default": false,
-        "image_placeholder": "Garden / outdoor space"
-      }
-    ],
-    "framework": {
-      "label": "The framework in practice",
-      "items": [
-        {
-          "term": "",
-          "body": "PACE stands for Playfulness, Acceptance, Curiosity and Empathy. It is the relational model embedded in the daily life of every Sanctuary home. It is a way of being with young people, not a programme delivered at them.",
-          "header": "PACE"
-        },
-        {
-          "term": "",
-          "body": "Trauma-informed practice runs through staff training, supervision and day-to-day decision-making. Adults are supported to understand the emotional drivers behind behaviour — to look behind what a young person does for the unmet need beneath it.",
-          "header": "Trauma-informed practice"
-        },
-        {
-          "term": "",
-          "body": "Sanctuary is also drawing on trauma recovery guidance, including specialist thinking around the unmet need beneath behaviour and relational responses to trauma.",
-          "header": "Trauma recovery guidance"
-        },
-        {
-          "term": "",
-          "body": "Financial literacy is taught practically — including through games such as Cashflow 101 and Monopoly, used as both therapeutic tools and financial education, introducing children to the principle that money can work for them rather than the other way round.",
-          "header": "Financial literacy"
-        },
-        {
-          "term": "",
-          "body": "Education and advocacy are active parts of the model. Mainstream schools often fail children with SEND or trauma-related difficulties. Sanctuary takes an active advocacy role — supporting EHC plan applications, engaging CAMHS and educational specialists, and ensuring every young person has the educational support they are entitled to.",
-          "header": "Education and advocacy"
-        }
-      ]
-    }
-  },
-  "safeguarding": {
-    "eyebrow": "Safeguarding & Quality",
-    "title_1": "Safe. Stable.",
-    "title_2": "Professionally governed.",
-    "opening": [
-      "Sanctuary Homes is designed to meet the expectations of commissioners, local authorities and Ofsted — not as a minimum standard, but as a starting point.",
-      "Safeguarding, governance and quality are not afterthoughts in this model. They are the architecture."
-    ],
-    "blocks": [
-      {
-        "label": "Independent oversight",
-        "paras": [
-          "Each home operates under the independent oversight of a Responsible Individual with extensive experience across regulated children's services.",
-          "The RI is separate from day-to-day management — providing challenge, accountability and the independent perspective that good governance requires.",
-          "The home will also be subject to independent monthly monitoring, including Regulation 44 visits, alongside Responsible Individual oversight and internal quality assurance."
-        ],
-        "visible": "Each home operates under the independent oversight of a Responsible Individual with extensive experience across regulated children's services.",
-        "detail": [
-          "The RI is separate from day-to-day management — providing challenge, accountability and the independent perspective that good governance requires.",
-          "The home will also be subject to independent monthly monitoring, including Regulation 44 visits, alongside Responsible Individual oversight and internal quality assurance."
-        ]
-      },
-      {
-        "label": "Registration and compliance",
-        "paras": [
-          "The Milton Keynes home will be registered with Ofsted before accepting any placement. Regulatory compliance, safeguarding frameworks and quality assurance processes will be established as part of the development of the home — not applied retrospectively.",
-          "Registration experience sits within the leadership structure. This is not a team learning the process for the first time."
-        ],
-        "visible": "The Milton Keynes home will be registered with Ofsted before accepting any placement. Regulatory compliance, safeguarding frameworks and quality assurance processes will be established as part of the development of the home — not applied retrospectively.",
-        "detail": [
-          "Registration experience sits within the leadership structure. This is not a team learning the process for the first time."
-        ]
-      },
-      {
-        "label": "Stability",
-        "paras": [
-          "Small homes, experienced adults, consistent leadership.",
-          "This is what stability looks like in practice. It is not a promise — it is a structural design decision.",
-          "Children who have experienced instability do not recover in unstable environments. Everything about how Sanctuary Homes is built is intended to reduce the variables that create instability, and to hold the conditions that allow recovery."
-        ],
-        "visible": "Small homes, experienced adults, consistent leadership.",
-        "detail": [
-          "This is what stability looks like in practice. It is not a promise — it is a structural design decision.",
-          "Children who have experienced instability do not recover in unstable environments. Everything about how Sanctuary Homes is built is intended to reduce the variables that create instability, and to hold the conditions that allow recovery."
-        ]
-      },
-      {
-        "label": "Outcomes",
-        "paras": [
-          "We are not placing young people. We are holding a pathway.",
-          "The measure of success is not occupancy or throughput. It is whether the young people who live in our homes leave better equipped, better connected and better prepared — with a clearer sense of who they are, what they are capable of, and what kind of life is worth building.",
-          "For many young people, purpose is not a luxury. It is protective. It gives the future meaning and gives a young person a reason to keep moving towards life.",
-          "The Pathway to Independence gives us a framework for tracking that. The leadership structure gives us the accountability to act on it."
-        ],
-        "visible": "We are not placing young people. We are holding a pathway.",
-        "detail": [
-          "The measure of success is not occupancy or throughput. It is whether the young people who live in our homes leave better equipped, better connected and better prepared — with a clearer sense of who they are, what they are capable of, and what kind of life is worth building.",
-          "For many young people, purpose is not a luxury. It is protective. It gives the future meaning and gives a young person a reason to keep moving towards life.",
-          "The Pathway to Independence gives us a framework for tracking that. The leadership structure gives us the accountability to act on it."
-        ]
-      }
-    ],
-    "toggle_open": "Read more",
-    "toggle_close": "Read less"
-  },
-  "enquiries": {
-    "eyebrow": "Commissioner Enquiries",
-    "title_1": "Let's",
-    "title_2": "talk.",
-    "intro": "If you are a commissioner, local authority placement team or referrer with an interest in the Milton Keynes home, the future New Malden opportunity, or the wider Sanctuary Homes model — we welcome the conversation.",
-    "intro_2": "We are in development. We will be direct about where we are, what is confirmed and what is still being put in place. We do not present aspirations as completed achievements.",
-    "future": "Sanctuary has also secured planning consent for a further potential location in New Malden, KT3. This remains in development, with delivery model and timing to be confirmed.",
-    "contact": {
-      "email": "robbie@robbiemair.com",
-      "location": "Twickenham, London",
-      "responded": "Enquiries are responded to personally by Robbie Mair."
-    },
-    "ecosystem_note": "For information about Sanctuary Infrastructure’s care property platform for established operators"
+    "title": "Sanctuary Infrastructure - C2 Care Property Platform | Children's Home Leasing",
+    "description": "Sanctuary Infrastructure provides consented, refurbished Class C2 children's home properties to established operators across England. No planning risk. Ready for the operator's Ofsted application.",
+    "keywords": "C2 children's home property lease, consented care property, children's home operator lease, C2 planning consent, residential children's home property, care property platform England",
+    "og_title": "Sanctuary Infrastructure - Care Property Platform",
+    "og_description": "We create the home. You deliver the care. Consented C2 properties for established children's home operators."
   },
   "nav": {
-    "back": {
-      "label": "← Robbie Mair",
-      "href": "/"
-    },
+    "brand_main": "Sanctuary",
+    "brand_accent": "Infrastructure",
+    "cta_text": "Request Asset Pack",
+    "cta_href": "#contact",
     "links": [
       {
-        "label": "The Milton Keynes Home",
-        "href": "#milton-keynes"
+        "label": "How It Works",
+        "href": "#how"
       },
       {
-        "label": "Leadership & Governance",
-        "href": "#leadership"
+        "label": "Available Assets",
+        "href": "#assets"
       },
       {
-        "label": "Therapeutic Approach",
-        "href": "#therapeutic"
+        "label": "The Economics",
+        "href": "#economics"
       },
       {
-        "label": "Safeguarding & Quality",
-        "href": "#safeguarding"
+        "label": "Operator Criteria",
+        "href": "#operators"
       },
       {
-        "label": "Why Sanctuary Homes",
-        "href": "#why"
+        "label": "About",
+        "href": "#founder"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
       }
-    ],
-    "cta": {
-      "label": "Commissioner Enquiries",
-      "href": "#enquiries"
-    }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Care Infrastructure Platform",
+    "headline_top": "We create<br>the home.",
+    "headline_emphasis": "You deliver<br>the care.",
+    "tagline": "Sanctuary provides consented, Ofsted-ready Class C2 properties to established children's home operators across England. No planning risk. No operational involvement. Long-term partnership.",
+    "model_line": "The right property, in the right place, ready to operate.",
+    "primary_text": "View Available Assets",
+    "primary_href": "#assets",
+    "secondary_text": "How It Works",
+    "secondary_href": "#how",
+    "quote": "Consented C2 stock is the scarcest resource in children's residential care. We remove that constraint.",
+    "quote_cite": "Robbie Mair - Founder, Sanctuary Infrastructure",
+    "stats": [
+      {
+        "value": "9",
+        "label": "C2 properties in pipeline"
+      },
+      {
+        "value": "2",
+        "label": "C2 consents confirmed"
+      },
+      {
+        "value": "£0",
+        "label": "Planning risk to operator"
+      },
+      {
+        "value": "C2",
+        "label": "Consented & Ofsted-application ready"
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "The Process",
+    "heading_top": "Simple.",
+    "heading_emphasis": "Structured.",
+    "heading_bottom": "Certain.",
+    "body": "Sanctuary does the hard work - planning, consent, refurbishment, compliance. You bring the care expertise, the LA relationships, and the Ofsted registration. Together we build something lasting.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "NDA & Initial Conversation",
+        "desc": "We share the full asset pack - property details, planning documentation, operator economics, and commercial terms - under our standard NDA. No commitment required at this stage."
+      },
+      {
+        "num": "02",
+        "title": "Due Diligence & Site Visit",
+        "desc": "We verify your operational track record - Ofsted history, LA pipeline, RM and RI in place, financial strength. You visit the property and review the full refurbishment specification."
+      },
+      {
+        "num": "03",
+        "title": "Heads of Terms",
+        "desc": "Fixed lease agreed. Base rent established. Upside participation clause confirmed. Lease documentation instructed. A clear, fair deal structure with no hidden costs."
+      },
+      {
+        "num": "04",
+        "title": "Handover - Ofsted-application ready",
+        "desc": "Sanctuary hands over a C2-consented, refurbished property, ready for you to begin your Ofsted registration. The 12-18 months of planning friction is already removed. Registration, staffing and mobilisation timelines are yours to lead."
+      },
+      {
+        "num": "05",
+        "title": "Long-Term Partnership",
+        "desc": "Preferred operators get first look at new consented stock as the pipeline grows. Sanctuary handles structural maintenance. You focus entirely on care delivery and placement outcomes."
+      }
+    ]
+  },
+  "assets": {
+    "eyebrow": "Available Now",
+    "heading_top": "Consented.",
+    "heading_emphasis": "Compliant.",
+    "heading_bottom": "Ready.",
+    "body": "Two properties with confirmed Lawful Development Certificates. Seven further properties in planning or pre-application. All located in areas with strong LA commissioning demand.",
+    "note": "Full asset packs available following NDA execution. Site visits by arrangement.",
+    "cards": [
+      {
+        "status": "✓ LDC Confirmed",
+        "status_class": "status-confirmed",
+        "name": "Furzton, Milton Keynes",
+        "location": "Milton Keynes MK4",
+        "metrics": [
+          {
+            "key": "Property",
+            "val": "3-bedroom detached house"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 2 children"
+          },
+          {
+            "key": "Planning Position",
+            "val": "✓ C2 consent granted"
+          },
+          {
+            "key": "Stage",
+            "val": "Refurbishment in progress"
+          },
+          {
+            "key": "Availability",
+            "val": "July 2026"
+          },
+          {
+            "key": "Area",
+            "val": "Milton Keynes"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured FRI commercial leases available. Terms available on request."
+          }
+        ],
+        "action_text": "Request asset pack",
+        "action_href": "#contact"
+      },
+      {
+        "status": "✓ LDC Confirmed",
+        "status_class": "status-confirmed",
+        "name": "New Malden, KT3",
+        "location": "Royal Borough of Kingston",
+        "metrics": [
+          {
+            "key": "Property",
+            "val": "3-bedroom detached house"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 2 children"
+          },
+          {
+            "key": "Planning Position",
+            "val": "✓ C2 consent granted"
+          },
+          {
+            "key": "Stage",
+            "val": "Occupied"
+          },
+          {
+            "key": "Availability",
+            "val": "November 2027 (estimated)"
+          },
+          {
+            "key": "Area",
+            "val": "Royal Borough of Kingston"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured FRI commercial leases available. Terms available on request."
+          }
+        ],
+        "action_text": "Request asset pack",
+        "action_href": "#contact"
+      },
+      {
+        "status": "Pipeline",
+        "status_class": "status-appeal",
+        "name": "Teesside Pipeline",
+        "location": "Stockton · Skelton · Guisborough · Middlesbrough",
+        "metrics": [
+          {
+            "key": "Property",
+            "val": "6-property Teesside pipeline"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 12 children across six homes (indicative)"
+          },
+          {
+            "key": "Planning Position",
+            "val": "4 appeals and 2 applications in progress"
+          },
+          {
+            "key": "Stage",
+            "val": "Pipeline development"
+          },
+          {
+            "key": "Availability",
+            "val": "From September 2026 (subject to consent)"
+          },
+          {
+            "key": "Area",
+            "val": "Stockton · Skelton · Guisborough · Middlesbrough"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured FRI commercial leases available. Terms available on request."
+          }
+        ],
+        "action_text": "Register interest",
+        "action_href": "#contact"
+      },
+      {
+        "status": "Application Pending",
+        "status_class": "status-appeal",
+        "name": "Mitcham CR4",
+        "location": "London",
+        "metrics": [
+          {
+            "key": "Property",
+            "val": "2-bedroom terraced house"
+          },
+          {
+            "key": "Capacity",
+            "val": "Up to 2 children"
+          },
+          {
+            "key": "Planning Position",
+            "val": "Planning application pending"
+          },
+          {
+            "key": "Stage",
+            "val": "Pipeline development"
+          },
+          {
+            "key": "Availability",
+            "val": "September 2026"
+          },
+          {
+            "key": "Area",
+            "val": "London"
+          },
+          {
+            "key": "Commercial terms",
+            "val": "Structured FRI commercial leases available. Terms available on request."
+          }
+        ],
+        "action_text": "Register interest",
+        "action_href": "#contact"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Work With Us",
+    "heading_top": "Start the",
+    "heading_emphasis": "conversation.",
+    "body": "All enquiries begin with an NDA. The full asset pack - property details, planning documentation, operator economics, and proposed commercial terms - is shared following execution.",
+    "note": "We respond to every enquiry personally. We do not use brokers or intermediaries.",
+    "direct_label": "Direct contact",
+    "direct_email": "robbie@robbiemair.com",
+    "response_label": "Response time",
+    "response_value": "Within 24 hours"
+  },
+  "footer": {
+    "brand_main": "Sanctuary",
+    "brand_accent": "Infrastructure",
+    "legal_lines": [
+      "Sanctuary Trading Group Limited · Registered in England",
+      "Strictly confidential - not for distribution",
+      "This website does not constitute an offer or binding commitment"
+    ]
   }
 }
