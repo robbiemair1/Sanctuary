@@ -14,7 +14,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Neue+Haas+Grotesk+Display+Pro:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
 <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -62,6 +61,39 @@
       </div>
       {% endfor %}
     </div>
+  </div>
+</section>
+
+<!-- PROCESS FLOW DIAGRAM -->
+<section class="flow-diagram" id="flow">
+  <div class="flow-inner">
+    <div class="flow-nodes">
+      <div class="flow-node">
+        <div class="flow-node-label">Property</div>
+        <div class="flow-node-sub">Identified &amp; acquired</div>
+      </div>
+      <div class="flow-arrow">&#8594;</div>
+      <div class="flow-node">
+        <div class="flow-node-label">Planning</div>
+        <div class="flow-node-sub">C2 consent secured</div>
+      </div>
+      <div class="flow-arrow">&#8594;</div>
+      <div class="flow-node">
+        <div class="flow-node-label">Infrastructure</div>
+        <div class="flow-node-sub">Refurbished &amp; compliant</div>
+      </div>
+      <div class="flow-arrow">&#8594;</div>
+      <div class="flow-node">
+        <div class="flow-node-label">Operator</div>
+        <div class="flow-node-sub">Long-term lease</div>
+      </div>
+      <div class="flow-arrow">&#8594;</div>
+      <div class="flow-node flow-node--end">
+        <div class="flow-node-label">Children</div>
+        <div class="flow-node-sub">Therapeutic care</div>
+      </div>
+    </div>
+    <p class="flow-caption">Sanctuary carries the planning risk, the capital, and the compliance burden. The operator brings the care expertise. The child gets the home.</p>
   </div>
 </section>
 
@@ -176,275 +208,10 @@
       <a href="{{ asset.action_href }}" class="asset-action">{{ asset.action_text }}</a>
     </div>
     {% endfor %}
-
   </div>
 </section>
 
-<!-- THE MODEL -->
-<section class="model" id="model">
-  <div class="model-grid">
-    <div>
-      <div class="section-eyebrow reveal">The Sanctuary Model</div>
-      <h2 class="section-heading reveal">Not just<br>a property.<br><em>A pathway.</em></h2>
-      <p class="section-body reveal" style="margin-top:20px;">Sanctuary properties are designed around a therapeutic framework developed over twenty years of working with young people. Operators who share this ethos find that the homes support better placement stability, stronger Ofsted outcomes, and a different quality of care.</p>
-      <div class="model-pillars" style="margin-top:48px">
-        <div class="pillar reveal">
-          <div class="pillar-num">i</div>
-          <div>
-            <div class="pillar-title">Therapeutic Design</div>
-            <div class="pillar-desc">PACE framework, DBT and trauma-informed practice embedded in the physical and operational design of every home. Ligature-proof, fire-safe, and emotionally considered.</div>
-          </div>
-        </div>
-        <div class="pillar reveal">
-          <div class="pillar-num">ii</div>
-          <div>
-            <div class="pillar-title">Pathway to Independence</div>
-            <div class="pillar-desc">A 23-workshop life skills programme covering financial literacy, identity, relationships, and employment — available to operators as an embedded curriculum.</div>
-          </div>
-        </div>
-        <div class="pillar reveal">
-          <div class="pillar-num">iii</div>
-          <div>
-            <div class="pillar-title">Care to Career</div>
-            <div class="pillar-desc">Partnership with Balfour Beatty and the Sanctuary Group provides care-experienced young people with employment pathways, mentoring, and alumni support for life.</div>
-          </div>
-        </div>
-        <div class="pillar reveal">
-          <div class="pillar-num">iv</div>
-          <div>
-            <div class="pillar-title">Rites of Passage</div>
-            <div class="pillar-desc">Partnerships with Journeyman UK, A Band of Brothers, Rites for Girls, and Woman Within provide structured rites of passage programmes for young people at key life transitions.</div>
-          </div>
-        </div>
-        <div class="pillar reveal">
-          <div class="pillar-num">v</div>
-          <div>
-            <div class="pillar-title">Sanctuary Credits</div>
-            <div class="pillar-desc">An internal recognition currency running through the Pathway to Independence programme. Children earn credits for engagement, effort, and growth — building agency, self-worth, and a tangible record of achievement.</div>
-          </div>
-        </div>
-        <div class="pillar reveal">
-          <div class="pillar-num">vi</div>
-          <div>
-            <div class="pillar-title">Five Stages of the Journey</div>
-            <div class="pillar-desc">Intensive Home → Group Living → Semi-Independent Living → Care to Career → Mentoring for Life. Not a placement. A pathway. The Sanctuary model follows a child from crisis to independence — and beyond.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="model-quote reveal">
-      <blockquote>"This is the home I needed. That is why I built it — not as an investment thesis, but as a response to lived experience."</blockquote>
-      <cite>Robbie Mair — Founder</cite>
-    </div>
-  </div>
-</section>
-
-<!-- THE FIVE JOURNEYS -->
-<section class="journey" id="journey">
-  <div class="section-eyebrow reveal">The Five Journeys</div>
-  <h2 class="section-heading reveal">A pathway,<br><em>not a placement.</em></h2>
-  <p class="section-body reveal" style="margin-top:20px">The Sanctuary Model recognises that every child's path is unique. It supports children and young people through five distinct stages — from the depths of crisis to genuine, lasting independence, and the lifelong mentoring that follows. Operators can position a home anywhere along this pathway.</p>
-  <div class="journey-stages">
-    <div class="stage reveal">
-      <div class="stage-num">1</div>
-      <div class="stage-main">
-        <div class="stage-name">Sanctuary Intensive Home</div>
-        <div class="stage-purpose">A therapeutic home for 1–2 children with highly complex needs, where the priority is safety, stability, and the slow rebuilding of trust.</div>
-      </div>
-      <div class="stage-detail">
-        <div class="stage-focus-label">Focus</div>
-        <div class="stage-focus">Emotional stabilisation, trauma recovery, and rebuilding trust in adults and the world.</div>
-        <div class="stage-milestone">Milestone — achieving safety and emotional regulation after trauma.</div>
-      </div>
-    </div>
-    <div class="stage reveal">
-      <div class="stage-num">2</div>
-      <div class="stage-main">
-        <div class="stage-name">Sanctuary Group Living</div>
-        <div class="stage-purpose">A therapeutic home for up to 4 children ready to engage with shared living and the social world of peers.</div>
-      </div>
-      <div class="stage-detail">
-        <div class="stage-focus-label">Focus</div>
-        <div class="stage-focus">Social integration, interpersonal skills, and continued therapeutic care in a shared environment.</div>
-        <div class="stage-milestone">Milestone — building meaningful relationships and trust with others.</div>
-      </div>
-    </div>
-    <div class="stage reveal">
-      <div class="stage-num">3</div>
-      <div class="stage-main">
-        <div class="stage-name">Sanctuary Semi-Independent Living</div>
-        <div class="stage-purpose">A home for one young person preparing for independence — supported by the Pathway to Independence workshop programme.</div>
-      </div>
-      <div class="stage-detail">
-        <div class="stage-focus-label">Focus</div>
-        <div class="stage-focus">Life-skills training — budgeting, cooking, personal responsibility — with support available when needed.</div>
-        <div class="stage-milestone">Milestone — transitioning to independence while retaining a safety net.</div>
-      </div>
-    </div>
-    <div class="stage reveal">
-      <div class="stage-num">4</div>
-      <div class="stage-main">
-        <div class="stage-name">Sanctuary Care to Career</div>
-        <div class="stage-purpose">A careers programme for young people transitioning from care — turning lived experience into vocation, stability, and financial independence.</div>
-      </div>
-      <div class="stage-detail">
-        <div class="stage-focus-label">Focus</div>
-        <div class="stage-focus">Corporate partnerships, vocational training, role models from care, and structured mentorship.</div>
-        <div class="stage-milestone">Milestone — a career aligned with passion, and genuine financial independence.</div>
-      </div>
-    </div>
-    <div class="stage reveal">
-      <div class="stage-num">5</div>
-      <div class="stage-main">
-        <div class="stage-name">Sanctuary Mentoring for Life</div>
-        <div class="stage-purpose">Lifelong mentorship and access to vibrant communities — support through every key transition, mirroring the care a family provides.</div>
-      </div>
-      <div class="stage-detail">
-        <div class="stage-focus-label">Focus</div>
-        <div class="stage-focus">Guidance through leaving care, employment, relationships, parenthood, and beyond.</div>
-        <div class="stage-milestone">Milestone — no young person ever feels forgotten or unsupported.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- THERAPEUTIC FRAMEWORK -->
-<section class="therapeutic" id="therapeutic">
-  <div class="section-eyebrow reveal">Therapeutic Framework</div>
-  <h2 class="section-heading reveal">Looking behind<br>the <em>behaviour.</em></h2>
-  <p class="section-body reveal" style="margin-top:20px">Sanctuary homes are designed to support both verbal and non-verbal therapies, meeting each child where they are. The principle is simple and proven — the best therapeutic resource for a traumatised child is the adults involved in their daily care, properly trained and supported to understand the emotional drivers behind behaviour.</p>
-  <div class="therapeutic-grid">
-    <div class="therapy-col reveal">
-      <div class="therapy-col-title">Non-Verbal &amp; Creative Therapies</div>
-      <div class="therapy-item">
-        <div class="therapy-item-name">Play, Art &amp; Music Therapy</div>
-        <div class="therapy-item-desc">Building confidence, expression, and emotional awareness for younger children and those not yet ready for verbal work.</div>
-      </div>
-      <div class="therapy-item">
-        <div class="therapy-item-name">Drama &amp; Equine-Assisted Therapy</div>
-        <div class="therapy-item-desc">Developing trust, empathy, and emotional regulation through experience rather than conversation.</div>
-      </div>
-      <div class="therapy-item">
-        <div class="therapy-item-name">Monopoly &amp; Cashflow 101</div>
-        <div class="therapy-item-desc">Games used as non-verbal therapy and financial education — building strategic thinking, social interaction, and an understanding of money working for you.</div>
-      </div>
-    </div>
-    <div class="therapy-col reveal">
-      <div class="therapy-col-title">Verbal &amp; Structured Interventions</div>
-      <div class="therapy-item">
-        <div class="therapy-item-name">CBT &amp; DBT</div>
-        <div class="therapy-item-desc">Cognitive and dialectical behavioural approaches for emotional regulation, coping skills, and managing distress.</div>
-      </div>
-      <div class="therapy-item">
-        <div class="therapy-item-name">The PACE Model</div>
-        <div class="therapy-item-desc">Playfulness, Acceptance, Curiosity and Empathy — trauma-informed connection embedded in the daily life of the home.</div>
-      </div>
-      <div class="therapy-item">
-        <div class="therapy-item-name">Holistic &amp; Adaptable</div>
-        <div class="therapy-item-desc">Verbal and non-verbal methods combined and tailored to each child's communication style and developmental stage.</div>
-      </div>
-    </div>
-  </div>
-  <div class="therapy-feature reveal">
-    <div class="therapy-feature-label">Therapeutic Guidance — Sylvia Duncan</div>
-    <div class="therapy-feature-title">"The best resource for a child's recovery is the adults in their daily care."</div>
-    <div class="therapy-feature-body">Sanctuary's therapeutic framework is informed by the guidance of Sylvia Duncan — Clinical Psychologist, Family Therapist, and Chair of the IRCT. Qualified in 1972, she has dedicated her professional life to working with traumatised children and adults, researching and publishing widely in the field of child abuse and neglect. Her conviction — that carers and educators, properly trained and supported, are the most powerful therapeutic resource a child can have — sits at the heart of the Sanctuary Model.</div>
-  </div>
-</section>
-
-<!-- EDUCATIONAL ADVOCACY -->
-<section class="advocacy">
-  <div class="advocacy-inner">
-    <div>
-      <h2 class="advocacy-title reveal">Educational advocacy<br>and <em>post-care support.</em></h2>
-    </div>
-    <div class="advocacy-text reveal">
-      <p>Mainstream schools often fail children with SEND or trauma-related difficulties. The Sanctuary Model takes an active role — identifying educational barriers, supporting Education, Health and Care Plan applications, and collaborating with CAMHS, educational psychologists, and SEND specialists.</p>
-      <p>The commitment does not end at 18. Sanctuary connects care leavers with mentorship, vibrant communities, and employment opportunities — including in-house roles where young people can use their lived experience to support others. Lifelong guidance, mirroring the care a family provides.</p>
-    </div>
-  </div>
-</section>
-
-<!-- CARE TO CAREER -->
-<section class="career" id="career">
-  <div class="economics-inner">
-    <div class="section-eyebrow reveal" style="color:rgba(255,255,255,0.4)">Care to Career</div>
-    <h2 class="section-heading reveal">From care<br>to <em>vocation.</em></h2>
-    <p class="career-body reveal">The Sanctuary Care to Career Pathway supports young people leaving care into meaningful, stable employment — turning lived experience into strength, and aligning work with genuine passion and capability.</p>
-    <div class="career-grid reveal">
-      <div class="career-card">
-        <div class="career-card-num">i</div>
-        <div class="career-card-title">Corporate Partnerships</div>
-        <div class="career-card-body">Collaboration with major employers to provide structured vocational training and long-term employment contracts — building skills, stability, and a real future for young people leaving care.</div>
-      </div>
-      <div class="career-card">
-        <div class="career-card-num">ii</div>
-        <div class="career-card-title">Employment Within Sanctuary</div>
-        <div class="career-card-body">Roles within the Sanctuary community for young people drawn to care professions — leveraging lived experience to support the next child, with ongoing professional development.</div>
-      </div>
-      <div class="career-card">
-        <div class="career-card-num">iii</div>
-        <div class="career-card-title">Role Models &amp; Mentorship</div>
-        <div class="career-card-body">Care leavers introduced to role models who have walked the same path, with tailored mentorship to build confidence, networks, and genuine career readiness.</div>
-      </div>
-    </div>
-    <div class="career-partner reveal">
-      <div class="career-partner-text"><strong>In partnership with Balfour Beatty.</strong> Sanctuary has agreed in principle a partnership with Balfour Beatty to provide care-experienced young people with vocational training and structured five-year employment contracts — a genuine route from care to a lasting career. <em style="color:rgba(255,255,255,0.4);font-style:italic">Subject to formal agreement.</em></div>
-    </div>
-  </div>
-</section>
-
-<!-- FOUNDER -->
-<section class="founder" id="founder">
-  <div class="founder-grid">
-    <div>
-      <div class="section-eyebrow reveal">The Founder</div>
-      <h2 class="section-heading reveal">Built from<br><em>experience,</em><br>not theory.</h2>
-      <div class="founder-story" style="margin-top:40px">
-        <p class="reveal"><strong>At seventeen, Robbie Mair was homeless</strong> — living in a tent in a park in South Wales. Violence at home had been part of his life. A period of family breakdown left him without a safe place in the world. Loneliness and anger consumed him.</p>
-        <p class="reveal">An elderly couple took him in. They gave him not just a roof — but stability, kindness, and the experience of being genuinely believed in. <strong>Not a day passes that Robbie does not remember them with gratitude.</strong> They are gone now, but they live in everything Sanctuary is built to be.</p>
-        <p class="reveal">In the years that followed, Robbie channelled what had been done to him into discipline and service. He trained in Japanese jujitsu — eventually earning three black belts and a purple belt in Brazilian jujitsu — as a practice of self-mastery and emotional regulation. He spent thirty years doing charity work: a Samaritans trained volunteer, seven years managing Crisis homeless shelters over Christmas week for over 1,000 guests, Chairman and mentor at Journeyman UK, and founder of an emotional intelligence support group that he eventually handed over — which has since grown to multiple locations and an online community.</p>
-        <p class="reveal">Twenty years as a management consultant brought a different discipline — delivering £100m+ in profitability across 120 companies, 63 M&A transactions, 23 industries. Nokia, Vodafone, WPP, Lloyds Banking Group. The skills to identify root problems, design practical solutions, and build things that last.</p>
-        <p class="reveal"><strong>Sanctuary is where all of it converges.</strong> The property expertise. The consulting discipline. The three decades of sitting with people in crisis. The personal experience of what the right environment at the right moment can do to a life.</p>
-        <p class="reveal">Robbie's wife Popi is a physiotherapist with over 22 years of healthcare experience. Her clinical insight and unwavering support have shaped Sanctuary from the beginning — and she is available to support homes clinically where children's needs require it.</p>
-      </div>
-    </div>
-    <div class="founder-credentials">
-      <div class="credential reveal">
-        <div class="credential-title">Background</div>
-        <div class="credential-value">25+ years · £100m+ profitability · 120 companies · 63 M&A transactions</div>
-      </div>
-      <div class="credential reveal">
-        <div class="credential-title">Portfolio</div>
-        <div class="credential-value">15 properties across England</div>
-      </div>
-      <div class="credential reveal">
-        <div class="credential-title">Charitable work</div>
-        <div class="credential-value">Samaritans trained volunteer · Crisis (7 years, 1,000+ guests) · Journeyman UK Chairman · Co Mixed Group founder</div>
-      </div>
-      <div class="credential reveal">
-        <div class="credential-title">Responsible Individual</div>
-        <div class="credential-value">Beth Massey RI — 30+ years, multiple Outstanding-rated homes</div>
-      </div>
-      <div class="credential reveal">
-        <div class="credential-title">Clinical team</div>
-        <div class="credential-value">Sylvia Duncan — Chair, IRCT · Qualified 1972 · Published researcher in child trauma</div>
-      </div>
-      <div class="credential reveal">
-        <div class="credential-title">Planning expertise</div>
-        <div class="credential-value">2 LDCs confirmed · 4 appeals pending · 3 LDC applications pending</div>
-      </div>
-    </div>
-  </div>
-
-  <div style="margin-top:80px; background:var(--accent-light); padding:56px 64px; border-left:3px solid var(--accent);" class="reveal">
-    <div style="font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); margin-bottom:20px;">The Responsible Individual — Beth Massey</div>
-    <blockquote style="font-family:var(--serif); font-size:26px; font-style:italic; font-weight:300; color:var(--ink); line-height:1.4; margin-bottom:24px; max-width:760px;">"Our children are the most important part of our society's future — and I've dedicated my life to making that future brighter."</blockquote>
-    <p style="font-size:15px; color:var(--ink-mid); line-height:1.7; max-width:680px;">Beth Massey brings more than 30 years in health and social care, and experience as an Ofsted-registered Outstanding manager. She has worked across homes, teams, and senior leadership to help children feel safe, loved, and seen — a creative, heart-led leader who specialises in improving services, developing new homes, and mentoring managers to believe in their own vision and capability.</p>
-  </div>
-</section>
-
-<!-- OPERATOR FILTER -->
+<!-- OPERATOR CRITERIA -->
 <section class="operator-filter" id="operators">
   <div class="filter-grid">
     <div>
@@ -623,6 +390,44 @@
       <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div>LDC Confirmed</div>
       <div class="legend-item"><div class="legend-dot" style="background:var(--gold)"></div>Appeal Pending</div>
       <div class="legend-item"><div class="legend-dot" style="background:var(--rule)"></div>Pipeline</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT THE FOUNDER -->
+<section class="founder" id="founder">
+  <div class="founder-grid">
+    <div>
+      <div class="section-eyebrow reveal">The Founder</div>
+      <h2 class="section-heading reveal">Built from<br><em>experience,</em><br>not theory.</h2>
+      <div class="founder-story" style="margin-top:40px">
+        <p class="reveal">At seventeen, <strong>Robbie Mair was homeless</strong> — taken in by an elderly couple who gave him stability and the experience of being believed in. Not a day passes that he does not remember them with gratitude. They live in everything Sanctuary is built to be.</p>
+        <p class="reveal">Twenty years as a management consultant. Twenty years of property investment and development. Thirty years of charitable work — Samaritans, Crisis, Chairman of Journeyman UK, founder of a support group still running today.</p>
+        <p class="reveal"><strong>Sanctuary is where all of it converges.</strong> The property expertise. The consulting discipline. The three decades of sitting with people in crisis. The personal knowledge of what the right environment at the right moment can do to a life.</p>
+        <p class="reveal" style="margin-top:8px"><a href="https://www.robbiemair.com/#story" style="color:var(--accent);font-size:14px;text-decoration:none;border-bottom:1px solid var(--rule);">Read the full story at robbiemair.com &#8594;</a></p>
+      </div>
+    </div>
+    <div class="founder-credentials">
+      <div class="credential reveal">
+        <div class="credential-title">Background</div>
+        <div class="credential-value">25+ years · £100m+ profitability · 120 companies · 63 M&amp;A transactions</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Portfolio</div>
+        <div class="credential-value">15 properties across England</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Charitable work</div>
+        <div class="credential-value">Samaritans · Crisis (7 years, 1,000+ guests) · Journeyman UK Chairman · Co Mixed Group founder</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Clinical guidance</div>
+        <div class="credential-value">Sylvia Duncan — Chair, IRCT · Qualified 1972 · Published researcher in child trauma</div>
+      </div>
+      <div class="credential reveal">
+        <div class="credential-title">Planning expertise</div>
+        <div class="credential-value">2 LDCs confirmed · 4 appeals pending · 3 LDC applications pending</div>
+      </div>
     </div>
   </div>
 </section>
