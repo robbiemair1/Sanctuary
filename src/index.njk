@@ -46,6 +46,7 @@
     </div>
   </div>
   <div class="hero-right">
+    <div class="hero-img-placeholder" data-img="hero-exterior" aria-label="Property exterior photography — to be added"></div>
     <div class="hero-logo">
       <img src="/assets/images/logo.png" alt="Sanctuary Infrastructure logo">
     </div>
@@ -67,6 +68,10 @@
 <!-- PROCESS FLOW DIAGRAM -->
 <section class="flow-diagram" id="flow">
   <div class="flow-inner">
+    <div class="flow-header">
+      <div class="flow-heading">How the Sanctuary Infrastructure model works</div>
+      <div class="flow-subheading">We create the home. Experienced operators deliver the care.</div>
+    </div>
     <div class="flow-nodes">
       <div class="flow-node">
         <div class="flow-node-label">Property</div>
@@ -93,7 +98,7 @@
         <div class="flow-node-sub">Therapeutic care</div>
       </div>
     </div>
-    <p class="flow-caption">Sanctuary carries the planning risk, the capital, and the compliance burden. The operator brings the care expertise. The child gets the home.</p>
+    <p class="flow-caption">Sanctuary Infrastructure exists to remove the property, planning and development burden so experienced operators can focus on what they do best: delivering outstanding care.</p>
   </div>
 </section>
 
@@ -194,6 +199,7 @@
   <div class="assets-grid reveal">
     {% for asset in site.assets.cards %}
     <div class="asset-card">
+      <div class="asset-img-placeholder" data-img="asset-{{ loop.index }}" aria-label="{{ asset.name }} — property photography to be added"></div>
       <div class="asset-status {{ asset.status_class }}">{{ asset.status }}</div>
       <div class="asset-name">{{ asset.name }}</div>
       <div class="asset-location">{{ asset.location }}</div>
@@ -493,8 +499,8 @@
         <label class="form-label" for="propertyInterest">Property of interest</label>
         <select id="propertyInterest" name="propertyInterest" class="form-select" required>
           <option value="" disabled selected>Select</option>
-          <option>19 Bampton Close, Milton Keynes (Q3 2026)</option>
-          <option>25 Cleveland Road, New Malden (Q1 2027)</option>
+          <option>Furzton, Milton Keynes (Q3 2026)</option>
+          <option>New Malden, KT3 (Q1 2027)</option>
           <option>Teesside pipeline (late 2026/2027)</option>
           <option>South London pipeline (2027)</option>
           <option>All available stock</option>
