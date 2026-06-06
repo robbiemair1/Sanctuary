@@ -118,10 +118,6 @@
         "location": "Milton Keynes MK4",
         "metrics": [
           {
-            "key": "Property",
-            "val": "3-bed detached"
-          },
-          {
             "key": "Permitted use",
             "val": "C2 — up to 2 children"
           },
@@ -134,7 +130,7 @@
             "val": "Q3 2026 — refurbishment in progress"
           },
           {
-            "key": "Commissioning",
+            "key": "Area",
             "val": "Strong MK LA demand"
           },
           {
@@ -151,10 +147,6 @@
         "name": "New Malden, KT3",
         "location": "Kingston upon Thames, London",
         "metrics": [
-          {
-            "key": "Property",
-            "val": "3-bed detached"
-          },
           {
             "key": "Permitted use",
             "val": "C2 — up to 2 children"
@@ -186,20 +178,16 @@
         "location": "Stockton · Skelton · Guisborough",
         "metrics": [
           {
-            "key": "Properties",
-            "val": "4 x 3-4 bed detached"
-          },
-          {
             "key": "Permitted use",
             "val": "C2 — up to 2 children per property"
           },
           {
-            "key": "Status",
-            "val": "Planning Inspectorate appeal"
+            "key": "Stage",
+            "val": "Planning Inspectorate appeal — consent pending"
           },
           {
-            "key": "Est. consent",
-            "val": "Late 2026 / Q1 2027"
+            "key": "Availability",
+            "val": "Est. consent late 2026 / Q1 2027"
           },
           {
             "key": "Area",
