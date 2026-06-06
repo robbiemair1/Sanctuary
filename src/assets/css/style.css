@@ -275,13 +275,33 @@ nav.scrolled { border-bottom-color: var(--rule); }
 ═══════════════════════════════════════ */
 .flow-diagram {
   background: var(--ink);
-  padding: 48px 80px;
+  padding: 56px 80px;
   border-top: 1px solid rgba(255,255,255,0.06);
 }
 
 .flow-inner {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.flow-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.flow-heading {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.flow-subheading {
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.06em;
 }
 
 .flow-nodes {
@@ -338,6 +358,34 @@ nav.scrolled { border-bottom-color: var(--rule); }
   line-height: 1.6;
   max-width: 680px;
   margin: 0 auto;
+}
+
+/* ═══════════════════════════════════════
+   IMAGE PLACEHOLDERS
+   Hidden by default — activate with real
+   images by replacing with <img> tags
+═══════════════════════════════════════ */
+.hero-img-placeholder,
+.asset-img-placeholder {
+  display: none;
+}
+
+.hero-img-placeholder[data-img-src],
+.asset-img-placeholder[data-img-src] {
+  display: block;
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.hero-img-placeholder[data-img-src] {
+  height: 220px;
+  margin-bottom: 24px;
+}
+
+.asset-img-placeholder[data-img-src] {
+  height: 180px;
+  margin-bottom: 20px;
 }
 
 /* ═══════════════════════════════════════
