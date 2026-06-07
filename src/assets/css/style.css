@@ -458,7 +458,6 @@ section { padding: 120px 80px; scroll-margin-top: 80px; }
   max-width: 600px;
 }
 
-
 /* ═══════════════════════════════════════
    ASSETS
 ═══════════════════════════════════════ */
@@ -913,20 +912,25 @@ footer {
   .assets-header { grid-template-columns: 1fr; gap: 32px; }
   .pipeline-header { grid-template-columns: 1fr; }
   .hero-stats { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 640px) {
-  .assets-grid { grid-template-columns: 1fr; }
-  .economics-numbers { grid-template-columns: 1fr 1fr; }
-  .pipeline-dots { grid-template-columns: 1fr 1fr; }
-  .assets-header { grid-template-columns: 1fr; gap: 32px; }
-  .pipeline-header { grid-template-columns: 1fr; }
-  .hero-stats { grid-template-columns: 1fr 1fr; }
 
-  /* ── KERNING / SPACING FIX ── */
+  /* ── ASSET CARD MOBILE FIX ── */
   .asset-card { padding: 28px 20px; }
-  .asset-metric { letter-spacing: 0; }
-  .metric-key { letter-spacing: 0; }
-  .metric-val { letter-spacing: 0; }
+  .asset-metric {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 12px;
+    align-items: start;
+  }
+  .metric-key {
+    white-space: normal;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+  .metric-val {
+    text-align: right;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
   .asset-name { letter-spacing: 0; }
   .asset-status { letter-spacing: 0.08em; }
 }
