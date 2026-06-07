@@ -914,3 +914,19 @@ footer {
   .pipeline-header { grid-template-columns: 1fr; }
   .hero-stats { grid-template-columns: 1fr 1fr; }
 }
+@media (max-width: 640px) {
+  .assets-grid { grid-template-columns: 1fr; }
+  .economics-numbers { grid-template-columns: 1fr 1fr; }
+  .pipeline-dots { grid-template-columns: 1fr 1fr; }
+  .assets-header { grid-template-columns: 1fr; gap: 32px; }
+  .pipeline-header { grid-template-columns: 1fr; }
+  .hero-stats { grid-template-columns: 1fr 1fr; }
+
+  /* ── KERNING / SPACING FIX ── */
+  .asset-card { padding: 28px 20px; }
+  .asset-metric { letter-spacing: 0; }
+  .metric-key { letter-spacing: 0; }
+  .metric-val { letter-spacing: 0; }
+  .asset-name { letter-spacing: 0; }
+  .asset-status { letter-spacing: 0.08em; }
+}
