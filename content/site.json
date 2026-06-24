@@ -52,11 +52,11 @@
     "quote_cite": "Robbie Mair - Founder, Sanctuary Infrastructure",
     "stats": [
       {
-        "value": "9",
+        "value": "8",
         "label": "C2 properties in pipeline"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "C2 consents confirmed"
       },
       {
@@ -108,47 +108,9 @@
     "heading_top": "Consented.",
     "heading_emphasis": "Compliant.",
     "heading_bottom": "Ready.",
-    "body": "Two properties with confirmed Lawful Development Certificates. Seven further properties in planning or pre-application. All located in areas with strong LA commissioning demand.",
+    "body": "One property with a confirmed Lawful Development Certificate. Seven further properties in planning or pre-application. All located in areas with strong LA commissioning demand.",
     "note": "Full asset packs available following NDA execution. Site visits by arrangement.",
     "cards": [
-      {
-        "status": "✓ LDC Confirmed",
-        "status_class": "status-confirmed",
-        "name": "Furzton, Milton Keynes",
-        "location": "Milton Keynes MK4",
-        "metrics": [
-          {
-            "key": "Property",
-            "val": "3-bedroom detached house"
-          },
-          {
-            "key": "Capacity",
-            "val": "Up to 2 children"
-          },
-          {
-            "key": "Planning Position",
-            "val": "✓ C2 consent granted"
-          },
-          {
-            "key": "Stage",
-            "val": "Refurbishment in progress"
-          },
-          {
-            "key": "Availability",
-            "val": "July 2026"
-          },
-          {
-            "key": "Area",
-            "val": "Milton Keynes"
-          },
-          {
-            "key": "Commercial terms",
-            "val": "Structured FRI commercial leases available. Terms available on request."
-          }
-        ],
-        "action_text": "Request asset pack",
-        "action_href": "#contact"
-      },
       {
         "status": "✓ LDC Confirmed",
         "status_class": "status-confirmed",
